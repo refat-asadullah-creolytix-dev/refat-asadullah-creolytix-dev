@@ -50,7 +50,7 @@ Engineer by training. Builder by instinct. Leader by responsibility.
 
 For over a decade, I’ve been designing, breaking, fixing, and scaling software systems and the humans brave enough to build them with me. I live where **technology, people, and business reality collide**. Titles change. Craft doesn’t.
 
-Currently, I’m the **Vice President of Engineering at Creolytix GmbH (Germany 🇩🇪)**, building platforms for **operational resilience**: real-time risk detection, analytics, and incident response. Because production doesn’t care about your feelings.
+Currently, I’m the **Vice President of Engineering at Creolytix GmbH (Germany 🇩🇪)**, building platforms for **operational resilience**: real-time risk detection, analytics, and incident response because production doesn’t care about your feelings.
 
 Despite the leadership role and the occasional stage talk, I still code. A lot. Probably more than is medically advised (Wrote 1.8M+ lines of code in 2025) 😅!
 
@@ -390,8 +390,6 @@ Startups, scale-ups, enterprises. Same fundamentals, different scars.
 ## 🤝 Let’s connect
 
 If you care about **real engineering**, **calm leadership**, and **building things that last**, we’ll get along.
-
-🔗 [LinkedIn](https://www.linkedin.com/in/asadullah-refat)
 
 > *Craft matters. People matter. Everything else is noise.*
 
