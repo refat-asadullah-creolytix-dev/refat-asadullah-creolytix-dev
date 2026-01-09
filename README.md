@@ -1,7 +1,3 @@
-![creolytix_cover](https://github.com/user-attachments/assets/c3d60b67-104b-4103-bd4b-6ca18c5f9b5e)
-
-<!-- ![creolytix_cover](https://github.com/user-attachments/assets/c3d60b67-104b-4103-bd4b-6ca18c5f9b5e) -->
-
 <!-- ────────────────────────────────  S Y N T H W A V E  ──────────────────────────────── -->
 
 <p align="center">
@@ -41,6 +37,8 @@
   <img alt="dotnet" src="https://img.shields.io/badge/.NET-8-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" />
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-00D4FF?style=for-the-badge&logo=typescript&logoColor=white" />
 </p>
+
+![creolytix_cover](https://github.com/user-attachments/assets/c3d60b67-104b-4103-bd4b-6ca18c5f9b5e)
 
 <p align="center">
   <img width="100%" alt="divider" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=3&section=footer" />
@@ -427,4 +425,3 @@ If you care about **real engineering**, **calm leadership**, and **building thin
 <p align="center">
   <img width="100%" alt="footer" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=130&section=footer&animation=fadeIn" />
 </p>
-
