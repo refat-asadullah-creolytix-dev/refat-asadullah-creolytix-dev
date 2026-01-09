@@ -4,10 +4,8 @@
   <img width="100%" alt="synthwave-header" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=190&section=header&text=👋Hi!%20I'm%20Refat&fontSize=58&animation=fadeIn&fontAlignY=35" />
 </p>
 
-
-
 <p align="center">
-  <img alt="typing" src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&size=30&pause=900&color=00F5FF&center=true&vCenter=true&width=960&lines=VP+of+Engineering+%7C+Systems+Thinker+%7C+Still+a+hands-on+Coder;Architecting+scalable+systems+that+survive+production;Old-school+fundamentals+%2B+modern+execution+%3D+my+happy+place" />
+  <img alt="typing" src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&size=30&pause=900&color=7f52ff&center=true&vCenter=true&width=960&lines=VP+of+Engineering+%7C+Systems+Thinker+%7C+Still+a+hands-on+Coder;Architecting+scalable+systems+that+survive+production;Old-school+fundamentals+%2B+modern+execution+%3D+my+happy+place" />
 </p>
 
 <p align="center">
@@ -18,7 +16,7 @@
 
 <!--<table align="center">
   <tr>
-    <td align="center"><a href="#-intro">INTRO</a></td>
+    <td align="center"><a href="#-who-am-i">INTRO</a></td>
     <td align="center"><a href="#-how-my-brain-is-wired">MINDSET</a></td>
     <td align="center"><a href="#-tech-arsenal-battle-tested-not-hype-driven">TECH</a></td>
     <td align="center"><a href="#-timeline-11-years-in-the-trenches">TIMELINE</a></td>
@@ -32,7 +30,7 @@
   <a href="https://www.linkedin.com/in/asadullah-refat">
     <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Asadullah%20Refat-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  <img alt="Profile views" src="https://komarev.com/ghpvc/?username=asadullah-refat-89&style=for-the-badge" />
+  <img alt="Profile views" src="https://komarev.com/ghpvc/?username=refat-asadullah-creolytix-dev&style=for-the-badge" />
   <img alt="CSharp" src="https://img.shields.io/badge/C%23-11-7F52FF?style=for-the-badge&logo=csharp&logoColor=white" />
   <img alt="dotnet" src="https://img.shields.io/badge/.NET-8-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" />
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-00D4FF?style=for-the-badge&logo=typescript&logoColor=white" />
@@ -44,7 +42,7 @@
   <img width="100%" alt="divider" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=3&section=footer" />
 </p>
 
-## Intro
+## 🕶️ Who am I
 🚀 VP of Engineering @ Creolytix GmbH | 🧠 Systems Thinker | 👨‍💻 Still a hands-on Coder
 
 Engineer by training. Builder by instinct. Leader by responsibility.
