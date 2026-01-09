@@ -220,7 +220,7 @@ Startups, scale-ups, enterprises. Same fundamentals, different scars.
 
 ---
 
-## 🗓 Timeline (11 years in the trenches)
+## 🗓 Timeline (12 years in the trenches)
 
 <table>
   <tr>
