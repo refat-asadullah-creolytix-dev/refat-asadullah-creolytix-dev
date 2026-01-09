@@ -1,15 +1,15 @@
 <!-- ────────────────────────────────  S Y N T H W A V E  ──────────────────────────────── -->
 
 <p align="center">
+  <img width="100%" alt="divider" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=3&section=footer" />
+</p>
+
+<p align="center">
   <img width="100%" alt="synthwave-header" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=190&section=header&text=👋Hi!%20I'm%20Refat&fontSize=58&animation=fadeIn&fontAlignY=35" />
 </p>
 
 <p align="center">
   <img alt="typing" src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&size=30&pause=900&color=7f52ff&center=true&vCenter=true&width=960&lines=VP+of+Engineering+%7C+Systems+Thinker+%7C+Still+a+hands-on+Coder;Architecting+scalable+systems+that+survive+production;Old-school+fundamentals+%2B+modern+execution+%3D+my+happy+place" />
-</p>
-
-<p align="center">
-  <img width="100%" alt="divider" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=3&section=footer" />
 </p>
 
 <!-- ─────────────────────────────────  Q U I C K  N A V  ───────────────────────────────── -->
@@ -35,7 +35,6 @@
   <img alt="dotnet" src="https://img.shields.io/badge/.NET-8-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" />
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-00D4FF?style=for-the-badge&logo=typescript&logoColor=white" />
 </p>
-
 <!-- <img width="1584" height="396" alt="New LinkedIn Banner with Wider Panels (1)" src="https://github.com/user-attachments/assets/c252dc10-0b16-4a7c-b713-2e5a77db53a4" />  -->
 
 <p align="center">
@@ -50,9 +49,11 @@ Engineer by training. Builder by instinct. Leader by responsibility.
 
 For over a decade, I’ve been designing, breaking, fixing, and scaling software systems and the humans brave enough to build them with me. I live where **technology, people, and business reality collide**. Titles change. Craft doesn’t.
 
-Currently, I’m the **Vice President of Engineering at Creolytix GmbH (Germany 🇩🇪)**, building platforms for **operational resilience**: real-time risk detection, analytics, and incident response because production doesn’t care about your feelings.
+Currently, I’m the **Vice President of Engineering at Creolytix GmbH (Germany 🇩🇪)**, building platforms for **operational resilience**: real-time risk detection, analytics, and incident response. Because production doesn’t care about your feelings.
 
 Despite the leadership role and the occasional stage talk, I still code. A lot. Probably more than is medically advised (Wrote 1.8M+ lines of code in 2025) 😅!
+
+🔗 [My GitHub Personal Account](https://github.com/asadullah-refat-89) Where I code for fun.
 
 ## 🧭 How my brain is wired
 
@@ -201,17 +202,18 @@ Old-school fundamentals. Modern execution. No shortcuts.
   </tr>
 </table>
 
-## 🏢 Places I’ve built things
+<!-- ## 🏢 Places I’ve built things
 - [Creolytix](https://creolytix.io/)
 - [SELISE Digital Platforms](https://selisegroup.com/)
 - [3S-Software, Service & Solution](https://3ssoftltd.com)
 - [GoBD](https://futurestartup.com/2015/05/20/this-startup-aims-to-solve-dhakas-traffic-problem-with-an-app-but-there-is-more-to-it/)
 - [Computer Ease Ltd](https://www.celimited.com/)
+-->
 
-Startups, scale-ups, enterprises. Same fundamentals, different scars.
 
 ## 🗓 Timeline (12 years in the trenches)
 <img width="1584" height="396" alt="New LinkedIn Banner with Wider Panels (1)" src="https://github.com/user-attachments/assets/036d9cd5-20e3-4def-a2e9-9be50b7de2af" />
+
 <table>
   <tr>
     <th align="left">Year</th>
@@ -220,12 +222,12 @@ Startups, scale-ups, enterprises. Same fundamentals, different scars.
   </tr>
   <tr>
     <td>2025 - Present</td>
-    <td><b>Vice President of Engineering</b> (Creolytix GmbH)</td>
+    <td><b>Vice President of Engineering</b> (Creolytix) https://creolytix.io/ </td>
     <td>Architecture, scalable secure systems, engineering excellence, governance, cross-functional delivery</td>
   </tr>
   <tr>
     <td>2024</td>
-    <td><b>Head of Business Operations & Engineering</b> (GenesisX, SELISE)</td>
+    <td><b>Head of Business Operations & Engineering</b> (GenesisX, SELISE) https://selisegroup.com/</td>
     <td>Pre-sales engineering, hiring, product development, roadmaps, architecture guidance, delivery discipline</td>
   </tr>
   <tr>
@@ -245,7 +247,7 @@ Startups, scale-ups, enterprises. Same fundamentals, different scars.
   </tr>
   <tr>
     <td>2017 - 2020</td>
-    <td><b>Sr. Software Engineer</b> (3S)</td>
+    <td><b>Sr. Software Engineer</b> (3S) https://3ssoftltd.com</td>
     <td>WPF/Xamarin + ASP.NET Web API, ERP + reporting platforms, analytics apps</td>
   </tr>
   <tr>
@@ -255,10 +257,12 @@ Startups, scale-ups, enterprises. Same fundamentals, different scars.
   </tr>
   <tr>
     <td>2013 - 2017</td>
-    <td><b>Programmer Analyst</b> (Computer Ease Ltd.)</td>
+    <td><b>Programmer Analyst</b> (Computer Ease Ltd.) https://www.celimited.com/</td>
     <td>Hospital ERP, accounting systems, workflow systems (XAML, WCF, SQL Server)</td>
   </tr>
 </table>
+
+Startups, scale-ups, enterprises. Same fundamentals, different scars.
 
 ## 🧪 Open-source highlights (the neon shelf)
 
@@ -390,7 +394,6 @@ Startups, scale-ups, enterprises. Same fundamentals, different scars.
 ## 🤝 Let’s connect
 
 If you care about **real engineering**, **calm leadership**, and **building things that last**, we’ll get along.
-
 > *Craft matters. People matter. Everything else is noise.*
 
 <p align="center">
