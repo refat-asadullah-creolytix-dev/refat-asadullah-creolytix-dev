@@ -21,7 +21,7 @@
     <td align="center"><a href="#-tech-arsenal-battle-tested-not-hype-driven">TECH</a></td>
     <td align="center"><a href="#-timeline-11-years-in-the-trenches">TIMELINE</a></td>
     <td align="center"><a href="#-arcade-mode-projects-i-build-for-fun">ARCADE</a></td>
-    <td align="center"><a href="#-featured-highlights-yes-,-people-noticed">FEATURED</a></td>
+    <td align="center"><a href="#-featured-highlights">FEATURED</a></td>
     <td align="center"><a href="#-lets-connect">CONNECT</a></td>
   </tr>
 </table>-->
@@ -30,13 +30,14 @@
   <a href="https://www.linkedin.com/in/asadullah-refat">
     <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Asadullah%20Refat-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  <img alt="Profile views" src="https://komarev.com/ghpvc/?username=refat-asadullah-creolytix-dev&style=for-the-badge" />
+  <img alt="Profile views" src="https://komarev.com/ghpvc/?username=asadullah-refat-89&style=for-the-badge" />
   <img alt="CSharp" src="https://img.shields.io/badge/C%23-11-7F52FF?style=for-the-badge&logo=csharp&logoColor=white" />
   <img alt="dotnet" src="https://img.shields.io/badge/.NET-8-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" />
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-00D4FF?style=for-the-badge&logo=typescript&logoColor=white" />
 </p>
 
-![creolytix_cover](https://github.com/user-attachments/assets/c3d60b67-104b-4103-bd4b-6ca18c5f9b5e)
+<!-- ![creolytix_cover](https://github.com/user-attachments/assets/c3d60b67-104b-4103-bd4b-6ca18c5f9b5e) -->
+<!-- <img width="1584" height="396" alt="New LinkedIn Banner with Wider Panels (1)" src="https://github.com/user-attachments/assets/c252dc10-0b16-4a7c-b713-2e5a77db53a4" />  -->
 
 <p align="center">
   <img width="100%" alt="divider" src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=3&section=footer" />
@@ -53,23 +54,15 @@ Currently, I’m the **Vice President of Engineering at Creolytix GmbH (Germany 
 
 Despite the leadership role and the occasional stage talk, I still code. A lot. Probably more than is medically advised (Wrote 1.8M+ lines of code in 2025) 😅!
 
----
-
 ## 🧭 How my brain is wired
 
-~~~text
-═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
   🧱 Strong systems outlive strong individuals                             
   🧼 Clean code > clever code                                              
   📐 Architecture is a business decision                                   
   🤝 Leadership without empathy is just noise                              
   📈 Discipline compounds, excuses don’t                                   
-═════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
-~~~
 
 Old-school fundamentals. Modern execution. No shortcuts.
-
----
 
 ## 🛠 What I actually do (between meetings)
 
@@ -96,14 +89,10 @@ Old-school fundamentals. Modern execution. No shortcuts.
   </tr>
 </table>
 
----
-
 ## 🌍 Where I operate from
 - 📍 Living and working in **Munich, Germany**
 - 🌏 Originally from **Dhaka, Bangladesh**
 - 🕰 Built teams across time zones, cultures, and caffeine levels
-
----
 
 ## 🧰 Tech arsenal (battle-tested, not hype-driven)
 
@@ -174,8 +163,6 @@ Old-school fundamentals. Modern execution. No shortcuts.
   </tr>
 </table>
 
----
-
 ## 🧠 Patterns & principles I refuse to compromise on
 
 <table>
@@ -207,8 +194,6 @@ Old-school fundamentals. Modern execution. No shortcuts.
   </tr>
 </table>
 
----
-
 ## 🏢 Places I’ve built things
 - [Creolytix](https://creolytix.io/)
 - [SELISE Digital Platforms](https://selisegroup.com/)
@@ -217,8 +202,6 @@ Old-school fundamentals. Modern execution. No shortcuts.
 - [Computer Ease Ltd](https://www.celimited.com/)
 
 Startups, scale-ups, enterprises. Same fundamentals, different scars.
-
----
 
 ## 🗓 Timeline (12 years in the trenches)
 
@@ -270,8 +253,6 @@ Startups, scale-ups, enterprises. Same fundamentals, different scars.
   </tr>
 </table>
 
----
-
 ## 🧪 Open-source highlights (the neon shelf)
 
 <table>
@@ -318,8 +299,6 @@ Startups, scale-ups, enterprises. Same fundamentals, different scars.
     </td>
   </tr>
 </table>
-
----
 
 ## 🎮 Arcade mode (projects I build for fun)
 
@@ -378,8 +357,6 @@ Startups, scale-ups, enterprises. Same fundamentals, different scars.
   </tr>
 </table>
 
----
-
 <!--## 📊 The neon dashboard
 
 <p align="center">
@@ -391,16 +368,14 @@ Startups, scale-ups, enterprises. Same fundamentals, different scars.
   <img alt="trophies" src="https://github-profile-trophy.vercel.app/?username=asadullah-refat-89&row=1&column=7&margin-w=10&margin-h=10" />
 </p>
 
----
 -->
 
-## ✍️ Featured highlights (yes, people noticed)
+## ✍️ Featured highlights
 
 - ⭐ [10 days of game development with Uno Platform, WebAssembly & C#](https://platform.uno/blog/10-days-of-game-development-with-uno-platform-webassembly-and-c/)
 - ⭐ [A space shooter game on the web with C# & WASM](https://platform.uno/blog/a-space-shooter-game-on-the-web-with-c-wasm-and-uno-platform/)
 - ⭐ [Featured on WASM Weekly](https://twitter.com/WasmWeekly/status/1560266404171231232)
 
----
 
 ## 🤔 A few honest quirks
 
@@ -410,7 +385,7 @@ Startups, scale-ups, enterprises. Same fundamentals, different scars.
 - ☕ Coffee-powered problem solver  
 - 🌙 Curiosity occasionally steals my sleep  
 
----
+
 
 ## 🤝 Let’s connect
 
