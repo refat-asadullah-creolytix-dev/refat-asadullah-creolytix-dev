@@ -1,5 +1,5 @@
 # Creolytix AI-Assisted Software Delivery Model
-## Executive Leadership Summary and Operating Framework
+## Executive Leadership Summary and Governed Adoption Framework
 
 ## 1. One-Page Leadership Summary
 
@@ -91,7 +91,43 @@ flowchart LR
 
 ---
 
-## 4. Problems This Model Solves
+## 4. What Is Already Implemented Today
+
+One of the most important ways to make this model credible is to distinguish between what is already real today and what remains part of the broader target state.
+
+The current operating model already has concrete signs of governed adoption:
+
+- the backend repository `Creolytix-GmbH/l3-net-creolytix-engr` contains a workspace marketplace configuration under `.agents/plugins/marketplace.json`
+- that marketplace defines `creolytix-workspace`
+- it registers the Engineering plugin `creolytix-codex`
+- the plugin is marked `INSTALLED_BY_DEFAULT`
+- the plugin metadata defines capabilities focused on `Code Quality` and `Standards`
+- the plugin’s default prompt explicitly instructs Codex to use `$creolytix-backend-guardrails`
+- the backend repository contains the real skill `creolytix-backend-guardrails`
+- that skill includes reference material and a validation script
+- the backend repository also contains `.github/ISSUE_TEMPLATE` and `.github/workflows`
+- the frontend repository contains `.github/ISSUE_TEMPLATE`, `.github/PULL_REQUEST_TEMPLATE.md`, and `.github/workflows`
+
+This means the document is not describing a purely theoretical future state. It is describing an operating model that already has verified implementation elements, especially in the backend repository.
+
+The diagram below distinguishes current implemented controls from the broader direction of the operating model.
+
+```mermaid
+flowchart LR
+    A[Already Implemented Today] --> B[Workspace Marketplace]
+    A --> C[creolytix-codex Plugin]
+    A --> D[creolytix-backend-guardrails Skill]
+    A --> E[Repo Templates and Workflows]
+
+    F[Broader Direction] --> G[Cross-Repo Standardization]
+    F --> H[Expanded Repo-Local Controls]
+    F --> I[KPI Measurement]
+    F --> J[Maturing Release Workflows]
+```
+
+---
+
+## 5. Problems This Model Solves
 
 This model exists to solve operational problems across the software delivery lifecycle, not simply to showcase AI tools.
 
@@ -119,37 +155,37 @@ flowchart LR
 
 ---
 
-## 5. Objectives of the AI-Assisted Delivery Model
+## 6. Objectives of the AI-Assisted Delivery Model
 
 The objectives of the Creolytix AI-assisted delivery model go beyond productivity. The goal is not merely to help teams write code faster. The goal is to improve the speed, quality, consistency, control, and clarity of the full software delivery lifecycle.
 
 The model is built around five objectives: speed, quality, consistency, guardrails, and human review. These objectives are interdependent. Speed without quality creates rework. Quality without consistency creates local variation. Guardrails without human review create false confidence. Human review without structured AI support can reduce leverage. The model is designed so these objectives reinforce one another.
 
-### 5.1 Speed
+### 6.1 Speed
 
 Creolytix uses AI to reduce the time required to move from customer input to execution-ready work. This includes faster clarification of requirements, faster issue and story planning, and faster preparation of documentation and release notes.
 
 Speed also applies during implementation. GitHub Copilot helps engineers move faster during coding. Codex accelerates planning, drafting, and communication work. The objective is not speed at any cost. The objective is reducing unnecessary delay across the workflow.
 
-### 5.2 Quality
+### 6.2 Quality
 
 Creolytix uses AI to improve the quality of stories, acceptance criteria, issue decomposition, PR refinement, documentation, and release communication. Better planning quality creates better engineering outcomes. Better review quality creates better merge quality. Better communication quality creates better customer understanding.
 
 Quality in this model includes more than code quality. It includes planning quality, design alignment quality, review quality, documentation quality, and communication quality.
 
-### 5.3 Consistency
+### 6.3 Consistency
 
 Consistency is one of the most important strategic objectives. Creolytix does not want different teams or developers using AI in incompatible ways. That would create inconsistent prompting styles, inconsistent implementation patterns, inconsistent review expectations, and fragmented standards.
 
 Consistency is strengthened through centralized plugin registration, repo-local Codex rules, templates, workflows, and shared engineering principles. This reduces drift and improves maintainability.
 
-### 5.4 Guardrails
+### 6.4 Guardrails
 
 AI requires boundaries. Guardrails include security boundaries, approved workflows, constrained repository context, curated repo-local rules, and explicit approval checkpoints. These guardrails help keep AI outputs aligned with enterprise expectations and repository standards.
 
 The purpose of guardrails is not to slow teams down. It is to make AI usage safer, more predictable, and more scalable.
 
-### 5.5 Human Review
+### 6.5 Human Review
 
 AI supports decision-making and delivery, but accountability remains with people. Product leaders validate requirements. Architects validate design decisions. Engineers validate implementation. Reviewers validate PRs. Stakeholders validate release communication.
 
@@ -184,7 +220,7 @@ mindmap
 
 ---
 
-## 6. Executive Operating Model
+## 7. Executive Operating Model
 
 At a high level, the model can be understood as a six-stage operating framework:
 
@@ -210,7 +246,7 @@ flowchart TD
 
 ---
 
-## 7. Tooling by Business Function
+## 8. Tooling by Business Function
 
 Each tool in the model supports a specific business function.
 
@@ -263,11 +299,11 @@ flowchart TB
 
 ---
 
-## 8. Practical Governance Through Real Codex Plugins and Skills
+## 9. Codex in Practice in the Backend Repository
 
-A major strength of the Creolytix model is that governance is not only described at a policy level. It is also implemented through real repository-native mechanisms.
+A major strength of the Creolytix model is that governance is not only described at a policy level. It is also implemented through real repository-native mechanisms in `Creolytix-GmbH/l3-net-creolytix-engr`.
 
-In the backend repository `Creolytix-GmbH/l3-net-creolytix-engr`, the workspace marketplace configuration located at `.agents/plugins/marketplace.json` defines a workspace named `creolytix-workspace`. Within that workspace, an Engineering plugin named `creolytix-codex` is registered as installed by default. This is important because it shows that AI guidance is being distributed through a centralized plugin model rather than left to optional local habits.
+The workspace marketplace configuration located at `.agents/plugins/marketplace.json` defines a workspace named `creolytix-workspace`. Within that workspace, an Engineering plugin named `creolytix-codex` is registered as installed by default. This is important because it shows that AI guidance is being distributed through a centralized plugin model rather than left to optional local habits.
 
 The plugin metadata in `plugins/creolytix-codex/.codex-plugin/plugin.json` describes `creolytix-codex` as repo-local Codex rules and skills for the Creolytix backend. The plugin exposes repo-local skills through `./skills/` and identifies its capabilities as `Code Quality` and `Standards`. Most importantly, the plugin’s default prompt explicitly instructs Codex to use `$creolytix-backend-guardrails` before making a backend change in the repository.
 
@@ -294,7 +330,7 @@ flowchart LR
 
 ---
 
-## 9. How the Verified Backend Skill Is Used in Practice
+## 10. How the Verified Backend Skill Is Used in Practice
 
 The existing skill `creolytix-backend-guardrails` provides a practical example of how Creolytix uses Codex for governed coding quality rather than generic assistance.
 
@@ -310,10 +346,8 @@ This is important because it shows a real shift from generic AI output to reposi
 
 ### Practical coding-quality controls enforced by the skill
 
-The skill governs several important quality areas.
-
 #### Architecture and placement
-It instructs Codex to:
+The skill directs Codex to:
 - respect the module, layer, and folder structure already used by the repository
 - make placement decisions based on module ownership, layer, artifact type, and folder
 - conform to `Creolytix.ArchitectureTests`
@@ -351,7 +385,7 @@ This means documentation quality is governed as part of coding quality, not as o
 
 #### API and method-shape guardrails
 It enforces:
-- named arguments by default for calls with two or more parameters when ambiguity exists
+- named arguments by default for calls where ambiguity exists
 - use of `static` where methods do not depend on instance state
 - parameter-object patterns for methods or constructors that would exceed seven parameters
 
@@ -398,7 +432,60 @@ flowchart TD
 
 ---
 
-## 10. Requirement-to-Release Example
+## 11. Before vs After Governed Backend AI Usage
+
+One of the clearest ways to understand the value of governed AI usage is to compare a backend change before and after repository-local guardrails are applied.
+
+### Before governed backend AI usage
+- backend changes may be generated without awareness of module ownership or layer placement
+- naming may drift away from DI scanning conventions
+- MongoDB-backed entities may be introduced without matching index registration
+- documentation and XML comments may be skipped or left stale
+- formatting and architecture validation may happen late or inconsistently
+- human review must spend more time catching preventable defects
+
+### After governed backend AI usage
+- Codex is directed to use `creolytix-backend-guardrails` before backend changes
+- implementation begins with repo-local architecture, placement, and naming expectations
+- MongoDB indexing is treated as part of the change, not as later cleanup
+- documentation, XML comments, and formatting are part of the expected workflow
+- validation and architecture checks happen earlier
+- human review can focus more on correctness, business intent, and higher-value concerns
+
+The diagram below contrasts unguided backend AI use with repo-governed backend AI use.
+
+```mermaid
+flowchart LR
+    subgraph Before
+        A1[Generic AI Output]
+        A2[Placement Drift]
+        A3[Naming Drift]
+        A4[Late Validation]
+        A5[More Review Rework]
+        A1 --> A2
+        A1 --> A3
+        A2 --> A4
+        A3 --> A4
+        A4 --> A5
+    end
+
+    subgraph After
+        B1[Use creolytix-backend-guardrails]
+        B2[Repo-Aware Placement]
+        B3[Repo-Aware Naming]
+        B4[Integrated Validation]
+        B5[Higher-Value Review]
+        B1 --> B2
+        B1 --> B3
+        B2 --> B4
+        B3 --> B4
+        B4 --> B5
+    end
+```
+
+---
+
+## 12. Requirement-to-Release Example
 
 A practical example helps make the model concrete.
 
@@ -458,13 +545,13 @@ sequenceDiagram
 
 ---
 
-## 11. Full-Stack Repository Strategy
+## 13. Full-Stack Repository Strategy
 
 Creolytix operates across repositories with different technical profiles. That makes repository-aware AI support essential.
 
 The backend repository `Creolytix-GmbH/l3-net-creolytix-engr` is overwhelmingly C#. This makes MCP-backed access to trusted .NET guidance, backend architectural consistency, and backend-specific Codex rules especially important. The verified `creolytix-codex` plugin and `creolytix-backend-guardrails` skill are strong examples of this backend-specific governance model.
 
-The frontend repository `Creolytix-GmbH/l3-react-creolytix-engr` is primarily TypeScript and SCSS. This makes frontend decomposition, UI alignment, component consistency, and frontend-specific review context especially important.
+The frontend repository `Creolytix-GmbH/l3-react-creolytix-engr` is primarily TypeScript and SCSS. This makes frontend decomposition, UI alignment, component consistency, and frontend-specific review context especially important. The frontend repository also already includes practical governance assets such as issue templates, a pull request template, and GitHub workflows.
 
 This full-stack reality is one reason governance matters. A shared operating model must still accommodate different technical layers. Repo-aware controls and repository-aware review allow Creolytix to standardize AI usage without making it generic or disconnected from actual codebase needs.
 
@@ -481,7 +568,7 @@ flowchart LR
 
     C --> C1[TypeScript and SCSS Dominant]
     C --> C2[Design and FE Alignment]
-    C --> C3[Frontend Review and UI Consistency Controls]
+    C --> C3[PR Template, Issue Templates, and Workflows]
 ```
 
 ```mermaid
@@ -502,7 +589,23 @@ pie title Frontend Repository Language Composition
 
 ---
 
-## 12. Governance and Human Accountability
+## 14. Current State vs Next Step
+
+A strong operating model should be clear about both present maturity and next priorities. The table below separates what Creolytix has already verified from what should come next.
+
+| Area | Current State | Next Step |
+|---|---|---|
+| Backend Codex governance | `creolytix-codex` plugin and `creolytix-backend-guardrails` skill verified in `l3-net-creolytix-engr` | Expand similar repo-local controls to additional backend domains and workflows |
+| Workspace governance | `creolytix-workspace` marketplace structure exists in backend repo | Standardize workspace-level rollout patterns across more repositories |
+| Backend quality enforcement | Repo-local skill governs architecture, naming, documentation, indexing, formatting, and validation | Extend measurement to prove impact on review quality and rework reduction |
+| Frontend governance foundation | Issue templates, PR template, and workflows verified in `l3-react-creolytix-engr` | Add equivalent repo-local AI controls where appropriate |
+| Cross-repo consistency | Shared operating model defined conceptually | Increase standardized AI controls across frontend and backend repos |
+| KPI model | Success metrics identified | Begin active reporting and scorecard-based review |
+| Release communication | AI-assisted release flow defined | Standardize measurable release-note and publication workflow |
+
+---
+
+## 15. Governance and Human Accountability
 
 Governance is the most important control layer in the Creolytix model. AI adoption becomes risky when it becomes individualized, inconsistent, and weakly reviewed. Without common controls, different developers can create different prompt patterns, inconsistent implementation habits, different review expectations, and conflicting local practices.
 
@@ -511,6 +614,7 @@ Creolytix avoids this by standardizing AI use at multiple levels:
 - workspace-level plugin registration
 - repo-local Codex plugins and skills
 - issue templates and workflows
+- pull request templates where available
 - human review and approval checkpoints
 
 Together, these create more predictable, more reviewable, and more scalable AI adoption.
@@ -576,7 +680,37 @@ flowchart LR
 
 ---
 
-## 13. Review, Documentation, and Release Communication
+## 16. What This Model Prevents
+
+The value of governed AI adoption is not only in what it enables, but also in what it helps prevent.
+
+This model helps prevent:
+- architecture drift across backend layers and modules
+- inconsistent naming that breaks scanning and discovery conventions
+- missing MongoDB index registration for persisted entities
+- weak documentation hygiene and stale XML comments
+- formatting and validation being deferred too late
+- fragmented prompting practices across engineers
+- repository-blind AI-generated code that does not fit the codebase
+- low-value review cycles focused on preventable defects
+- inconsistent release-note and documentation follow-through
+
+The diagram below summarizes the main failure modes this model is designed to prevent.
+
+```mermaid
+flowchart TB
+    A[Governed AI Adoption Prevents] --> B[Architecture Drift]
+    A --> C[Naming and Discovery Drift]
+    A --> D[Missing Indexing and Validation]
+    A --> E[Documentation Drift]
+    A --> F[Prompt Fragmentation]
+    A --> G[Repository-Blind Output]
+    A --> H[Low-Value Review Rework]
+```
+
+---
+
+## 17. Review, Documentation, and Release Communication
 
 A major strength of this model is that it does not stop at implementation. Creolytix uses AI to improve how work is reviewed, documented, and communicated after the code is written.
 
@@ -598,7 +732,7 @@ flowchart LR
 
 ---
 
-## 14. Risks Reduced by the Model
+## 18. Risks Reduced by the Model
 
 This model helps reduce multiple categories of enterprise risk.
 
@@ -632,48 +766,35 @@ flowchart TB
 
 ---
 
-## 15. Success Measures and KPIs
+## 19. Executive Scorecard for Success
 
 For this model to be operationally credible, it should be measured. The purpose of measurement is not only to track usage, but to confirm whether the model is improving delivery outcomes.
 
-### Speed Measures
-- time from requirement intake to issue readiness
-- time from story approval to implementation start
-- documentation update turnaround after merge
-- release note preparation turnaround
-
-### Quality Measures
-- number of clarification cycles per feature
-- rework caused by misunderstood requirements
-- PR revision cycles before approval
-- review findings resolved before merge
-
-### Consistency and Governance Measures
-- adoption of approved workspace plugins
-- usage of repo-local Codex controls in targeted workflows
-- consistency of implementation patterns across repositories
-- percentage of AI-assisted outputs going through defined review checkpoints
-
-### Communication Measures
-- time from merge to customer-facing release note draft
-- documentation freshness for major releases
-- release communication approval cycle time
-
-Even if all of these are not immediately measured, defining them is important. It clarifies what success should look like and makes the operating model more accountable.
+| Dimension | Example Measure | Why It Matters |
+|---|---|---|
+| Speed | Time from requirement intake to issue readiness | Measures planning acceleration |
+| Speed | Time from story approval to implementation start | Measures workflow readiness |
+| Quality | PR revision cycles before approval | Measures quality before merge |
+| Quality | Rework caused by misunderstood requirements | Measures upstream clarity |
+| Consistency and Governance | Adoption of approved workspace plugins and repo-local controls | Measures standardized AI usage |
+| Consistency and Governance | Percentage of AI-assisted changes passing defined review checkpoints | Measures governance compliance |
+| Documentation | Time from merge to documentation update | Measures documentation discipline |
+| Communication | Time from merge to release-note draft | Measures downstream communication speed |
+| Communication | Release communication approval cycle time | Measures customer-facing readiness |
 
 The diagram below groups the KPI model into four measurement domains.
 
 ```mermaid
 flowchart TB
-    A[Success Measures] --> B[Speed]
+    A[Executive Scorecard] --> B[Speed]
     A --> C[Quality]
     A --> D[Consistency and Governance]
-    A --> E[Communication]
+    A --> E[Documentation and Communication]
 ```
 
 ---
 
-## 16. AI Delivery Maturity Model
+## 20. AI Delivery Maturity Model
 
 This model should be understood as a maturity journey.
 
@@ -706,7 +827,7 @@ flowchart LR
 
 ---
 
-## 17. Benefits, Limitations, and Next Phase
+## 21. Benefits, Limitations, and Next Phase
 
 ### Benefits
 This model improves speed, quality, consistency, governance, and communication across the delivery lifecycle. It creates a stronger path from customer request to shipped value.
@@ -744,9 +865,9 @@ flowchart LR
 
 ---
 
-## 18. Leadership Recommendation
+## 22. Leadership Recommendation
 
-Creolytix should continue investing in AI-assisted delivery as a governed operating capability, not as a collection of local tool experiments.
+Creolytix should treat governed AI-assisted delivery as a strategic operating capability, not as a collection of local tool experiments.
 
 That means continuing to:
 - standardize AI usage through workspace-level plugin registration
@@ -757,6 +878,8 @@ That means continuing to:
 - build AI into the full delivery lifecycle, including planning, review, documentation, and release communication
 
 The strategic objective should be clear: build a delivery capability that is faster, more consistent, more reviewable, and safer to scale.
+
+Creolytix should continue investing in this model because the goal is not simply faster code generation. The goal is a more reliable, scalable, and governed way to deliver software quality across planning, engineering, and customer communication.
 
 The diagram below summarizes the executive outcome of the overall model.
 
@@ -771,7 +894,7 @@ flowchart TD
 
 ---
 
-## 19. Verified Repository References
+## 23. Verified Repository References
 
 The following repository assets provide concrete evidence of governed backend Codex adoption in `Creolytix-GmbH/l3-net-creolytix-engr`.
 
@@ -790,4 +913,21 @@ The following repository assets provide concrete evidence of governed backend Co
 - Skill validation script  
   `/plugins/creolytix-codex/skills/creolytix-backend-guardrails/scripts/check-creolytix-backend-guardrails.ps1`
 
-These assets demonstrate that Creolytix already has a real plugin and skill-based mechanism for guiding backend coding quality through Codex in a centralized and governed way.
+Additional verified governance assets across the Creolytix repositories include:
+
+- Backend issue templates  
+  `Creolytix-GmbH/l3-net-creolytix-engr/.github/ISSUE_TEMPLATE`
+
+- Backend workflows  
+  `Creolytix-GmbH/l3-net-creolytix-engr/.github/workflows`
+
+- Frontend issue templates  
+  `Creolytix-GmbH/l3-react-creolytix-engr/.github/ISSUE_TEMPLATE`
+
+- Frontend pull request template  
+  `Creolytix-GmbH/l3-react-creolytix-engr/.github/PULL_REQUEST_TEMPLATE.md`
+
+- Frontend workflows  
+  `Creolytix-GmbH/l3-react-creolytix-engr/.github/workflows`
+
+These assets demonstrate that Creolytix already has real plugin, skill, template, and workflow-based mechanisms for guiding coding quality and governed AI adoption through repository-native controls.
