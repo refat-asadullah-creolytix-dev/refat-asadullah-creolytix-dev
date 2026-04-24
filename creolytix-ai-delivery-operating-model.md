@@ -173,7 +173,78 @@ quadrantChart
 
 ---
 
-# 4. The Structure of a Governed but Adaptable Model
+# 4. Requirement-to-Release Example
+
+A practical example makes the operating model easier to understand. Imagine a customer asks for an improvement to a reporting workflow. The request begins as a conversation, notes, and partial business context rather than as implementation-ready work.
+
+ChatGPT and Codex help clarify the need, surface assumptions, and turn the request into a structured requirement. Codex then helps decompose the work into epics, stories, tasks, and acceptance criteria. If the reporting workflow has a user-facing change, Google Stitch helps explore early UI direction before implementation begins. GitHub Boards provides the operational view for prioritization, sequencing, and ownership.
+
+Implementation then moves into repository context. In the backend repository, governed Codex usage can begin through `creolytix-codex` and `creolytix-backend-guardrails`, while GitHub Copilot supports implementation once scope and design are already clear. Greptile and Codex support PR refinement and review interpretation. After merge, Codex helps update documentation and prepare release notes, which are then reviewed and adapted into customer communication.
+
+## End-to-end flow
+
+```mermaid
+flowchart TD
+    A[Customer Request] --> B[ChatGPT and Codex Clarification]
+    B --> C[Structured Requirement]
+    C --> D[Codex Epic and Stories]
+    D --> E[Stitch UI Concepts]
+    D --> F[UI UX FE and BE Issues]
+    E --> F
+    F --> G[GitHub Boards]
+    G --> H[Backend and Frontend Implementation]
+    H --> I[Backend Uses creolytix-backend-guardrails]
+    I --> J[PR and Greptile Review]
+    J --> K[Codex Refinement Support]
+    K --> L[Human Approval]
+    L --> M[Merge]
+    M --> N[Documentation Update]
+    M --> O[Release Notes]
+    O --> P[Intercom Publication]
+```
+
+## Cross-functional sequence
+
+```mermaid
+sequenceDiagram
+    participant Customer
+    participant Product
+    participant AI as ChatGPT/Codex
+    participant Design as Stitch
+    participant Engineering
+    participant BackendSkill as creolytix-backend-guardrails
+    participant Review as Greptile/Human Review
+    participant Release
+
+    Customer->>Product: Request reporting enhancement
+    Product->>AI: Clarify and structure requirement
+    AI-->>Product: Stories and issue draft
+    Product->>Design: Explore UI concepts
+    Design-->>Product: Visual direction
+    Product->>Engineering: Approve and track work
+    Engineering->>BackendSkill: Apply backend repo guardrails
+    Engineering->>Review: Open PR
+    Review-->>Engineering: Findings and refinements
+    Engineering->>Release: Merge completed work
+    Release-->>Customer: Publish update and release communication
+```
+
+## Delivery step summary
+
+| Delivery step | Primary tools | AI contribution | Human accountability | Governance mechanism |
+|---|---|---|---|---|
+| Clarify customer request | ChatGPT, Codex | Summarizes need and identifies ambiguity | Product | Shared operating approach |
+| Structure work | Codex, GitHub Boards | Drafts stories, issues, acceptance criteria, tracks work | Product + Engineering | Templates and workflow discipline |
+| Align design and scope | Google Stitch, Codex | Supports option framing and UI direction | Product + Design + Engineering | Review checkpoints |
+| Implement change | GitHub Copilot, Codex | Assists coding | Engineering | Repo-local guardrails |
+| Review PR | Greptile, Codex | Supports refinement and interpretation | Reviewer | PR process and repository context |
+| Use trusted technical context | MCP-connected sources | Grounds outputs in current references | Engineering + Reviewer | Controlled source usage |
+| Update documentation | Codex, ChatGPT | Drafts updates | Engineering + Reviewer | Repo workflow discipline |
+| Prepare release notes | Codex, ChatGPT | Drafts communication | Release stakeholder | Human approval before publication |
+
+---
+
+# 5. The Structure of a Governed but Adaptable Model
 
 The model becomes practical when it is layered. Some controls belong at workspace level because consistency matters across repositories. Some controls belong inside repositories because context matters there. Some accountability remains human because approval and judgment cannot be delegated to AI.
 
@@ -210,7 +281,7 @@ This distinction matters because it explains why the operating model can stay co
 
 ---
 
-# 5. Why Repository-Local Guardrails Matter
+# 6. Why Repository-Local Guardrails Matter
 
 Repository-local controls are the practical bridge between general AI capability and codebase-specific delivery quality.
 
@@ -240,9 +311,50 @@ flowchart TB
     B --> D --> E --> F --> G
 ```
 
+## Backend guardrails in practice
+
+The backend repository provides a concrete example of how repository-local guidance works in practice. The `creolytix-backend-guardrails` skill directs implementation toward repository-aware placement, naming, documentation, validation, and MongoDB-related checks before review begins.
+
+| Before repo-local guardrails | After repo-local guardrails |
+|---|---|
+| Generic AI output | Repo-aware implementation |
+| Placement drift | Correct layer and module placement |
+| Naming drift | Naming aligned with DI and discovery conventions |
+| Late validation | Validation integrated earlier |
+| Review catches preventable defects | Review focuses more on correctness and intent |
+
+```mermaid
+flowchart LR
+    subgraph Before
+        A1[Generic AI Output]
+        A2[Placement Drift]
+        A3[Naming Drift]
+        A4[Late Validation]
+        A5[More Review Rework]
+        A1 --> A2
+        A1 --> A3
+        A2 --> A4
+        A3 --> A4
+        A4 --> A5
+    end
+
+    subgraph After
+        B1[Use creolytix-backend-guardrails]
+        B2[Repo-Aware Placement]
+        B3[Repo-Aware Naming]
+        B4[Integrated Validation]
+        B5[Higher-Value Review]
+        B1 --> B2
+        B1 --> B3
+        B2 --> B4
+        B3 --> B4
+        B4 --> B5
+    end
+```
+
 ---
 
-# 6. Evidence of the Model in Practice
+# 7. Evidence of the Model in Practice
 
 The model is easier to understand when viewed through concrete repository assets rather than only through policy language. Existing repository structures already show how AI governance can be embedded into delivery.
 
@@ -271,9 +383,46 @@ flowchart LR
     C --> F
 ```
 
+## Repository profile view
+
+| Repository | Primary technical profile | Governance signal |
+|---|---|---|
+| `Creolytix-GmbH/l3-net-creolytix-engr` | Backend, overwhelmingly C# / .NET | Strongest verified Codex guardrail example |
+| `Creolytix-GmbH/l3-react-creolytix-engr` | Frontend, primarily TypeScript and SCSS | Templates, PR workflow, and workflow governance foundation |
+
+```mermaid
+flowchart LR
+    A[Creolytix Engineering Repositories] --> B[Backend Repo]
+    A --> C[Frontend Repo]
+
+    B --> B1[C# Dominant]
+    B --> B2[.NET Context]
+    B --> B3[creolytix-codex and creolytix-backend-guardrails]
+
+    C --> C1[TypeScript and SCSS Dominant]
+    C --> C2[Design and FE Alignment]
+    C --> C3[PR Template, Issue Templates, and Workflows]
+```
+
+```mermaid
+pie title Backend Repository Language Composition
+    "C#" : 99.9
+    "Other" : 0.1
+```
+
+```mermaid
+pie title Frontend Repository Language Composition
+    "TypeScript" : 85
+    "SCSS" : 14.6
+    "JavaScript" : 0.4
+    "HTML" : 0
+    "Dockerfile" : 0
+    "Shell" : 0
+```
+
 ---
 
-# 7. Standardization and Adaptation at the Same Time
+# 8. Standardization and Adaptation at the Same Time
 
 One of the most important ideas in the model is that standardization and adaptation are not opposites. They operate at different levels.
 
@@ -303,7 +452,7 @@ flowchart LR
 
 ---
 
-# 8. Measuring the Model
+# 9. Measuring the Model
 
 A governed AI delivery model is easier to manage when it is observed through delivery outcomes rather than only through policy compliance.
 
@@ -334,6 +483,16 @@ mindmap
       Faster updates after merge
     Communication
       Faster release-note drafting
+```
+
+## Maturity view
+
+```mermaid
+flowchart LR
+    A[Level 1 Ad Hoc Prompting] --> B[Level 2 Repeatable Team Workflows]
+    B --> C[Level 3 Workspace Registration and Repo-Local Controls]
+    C --> D[Level 4 End-to-End Governed Delivery]
+    D --> E[Level 5 Continuously Optimized Model]
 ```
 
 ---
