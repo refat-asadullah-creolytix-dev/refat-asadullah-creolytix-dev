@@ -5,13 +5,15 @@
 
 Creolytix is establishing a governed AI-assisted software delivery model in which AI is integrated across the full software lifecycle, from requirement clarification to release communication. The objective is not limited to coding acceleration. The objective is to improve speed, quality, consistency, governance, and customer communication across planning, implementation, review, documentation, and release.
 
-The leadership issue is straightforward. AI tools are now capable of supporting nearly every stage of software development. They can help clarify customer needs, structure work, explore design options, support implementation, improve pull request quality, assist documentation, and accelerate release communication. However, if each team or individual uses AI differently, the result is inconsistency, review friction, architectural drift, and avoidable delivery risk.
+The leadership issue is straightforward. AI tools are now capable of supporting nearly every stage of software development. ChatGPT and Codex can help clarify customer needs and structure work. Codex and GitHub Boards can help decompose execution into issues and stories. Google Stitch can accelerate early UI direction. GitHub Copilot and Codex can support implementation. Greptile and Codex can improve review quality. MCP-connected context can ground AI outputs in trusted technical sources. Codex and ChatGPT can support documentation and release communication.
 
-The Creolytix model addresses this by combining workspace-level controls, repository-local plugins and guardrails, templates, workflows, and explicit human approval points into a single operating framework. This ensures that AI is not applied as a fragmented set of local productivity experiments, but as a governed delivery capability.
+However, if each team or individual uses these tools differently, the result is inconsistency, review friction, architectural drift, and avoidable delivery risk. The challenge is therefore not whether AI tools should be used. The challenge is whether they should be integrated into a controlled, repository-aware, and reviewable operating model.
+
+The Creolytix model addresses this by combining workspace-level controls, repository-local plugins and guardrails, templates, workflows, and explicit human approval points into a single operating framework. This ensures that AI is not applied as a fragmented set of local productivity experiments, but as a governed delivery capability spanning the full software development lifecycle.
 
 This model is credible because it is not purely conceptual. In the backend repository `Creolytix-GmbH/l3-net-creolytix-engr`, the workspace marketplace configuration, the `creolytix-codex` plugin, the default prompt behavior, and the `creolytix-backend-guardrails` skill already provide concrete evidence of repository-native AI governance. Additional workflow and template assets are also present in the backend and frontend repositories.
 
-> **Leadership takeaway:** Creolytix should manage AI-assisted delivery as a governed operating capability that integrates AI throughout the full software lifecycle while preserving repository-specific controls, human accountability, and measurable outcomes.
+> **Leadership takeaway:** Creolytix should manage AI-assisted delivery as a governed operating capability that integrates AI tools across the full software lifecycle while preserving repository-specific controls, human accountability, and measurable outcomes.
 
 ---
 
@@ -19,7 +21,7 @@ This model is credible because it is not purely conceptual. In the backend repos
 
 ## 1. Why This Matters Now
 
-Software organizations are expected to deliver faster while maintaining quality, control, and customer trust. At the same time, AI tools are becoming increasingly capable across all major delivery activities, including requirement analysis, planning, implementation support, review preparation, documentation, and release communication.
+Software organizations are expected to deliver faster while maintaining quality, control, and customer trust. At the same time, AI tools are becoming increasingly capable across all major delivery activities, including requirement analysis, planning, design exploration, implementation support, review preparation, documentation, and release communication.
 
 This creates both opportunity and risk. If AI is integrated deliberately, it can reduce ambiguity, improve execution readiness, and increase delivery efficiency across the lifecycle. If it is adopted inconsistently, it can increase variation in how work is defined, implemented, reviewed, documented, and communicated.
 
@@ -152,34 +154,33 @@ flowchart LR
     A --> B --> C --> D --> E --> F --> G
 ```
 
-## 6. AI Integration Across the Full Delivery Lifecycle
+## 6. AI Tooling Across the Full Delivery Lifecycle
 
 Creolytix uses AI as a lifecycle capability rather than as a coding-only tool. The purpose is to improve the quality and speed of the full delivery chain, from customer input to customer communication.
 
-At the front of the lifecycle, AI helps summarize customer discussions, clarify ambiguity, identify assumptions, and produce structured requirements. In planning, AI helps draft epics, stories, acceptance criteria, and issue decomposition. In design-related work, AI can support option framing and early UI direction. During implementation, AI supports coding productivity inside repository-aware controls. During review, AI can help refine PR quality and interpret repository-aware findings. After merge, AI supports documentation updates, release-note drafting, and customer-facing communication preparation.
+At the front of the lifecycle, ChatGPT and Codex help summarize customer discussions, clarify ambiguity, identify assumptions, and produce structured requirements. In planning, Codex helps draft epics, stories, acceptance criteria, and issue decomposition, while GitHub Boards provides the execution system for prioritization, sequencing, and tracking. In design-related work, Google Stitch supports early UI direction and design exploration. During implementation, GitHub Copilot and Codex support development productivity inside repository-aware controls. During review, Greptile and Codex help improve PR quality and interpret repository-aware findings. MCP-connected context helps ground AI outputs in authoritative, current technical sources. After merge, Codex and ChatGPT support documentation updates, release-note drafting, and customer-facing communication preparation.
 
 This integrated use is strategically important because delivery quality is shaped before coding starts and after code is merged, not only during implementation.
 
-| Delivery Stage | AI Role | Intended Benefit |
-|---|---|---|
-| Requirement clarification | Summarize, structure, identify ambiguity | Better requirement quality |
-| Planning and decomposition | Draft issues, stories, acceptance criteria | Faster execution readiness |
-| Design alignment | Support option framing and early UI direction | Better design-to-build alignment |
-| Implementation | Assist coding inside repository guardrails | Faster development with better fit |
-| Review and refinement | Support PR quality improvement | Higher-value review |
-| Documentation | Draft and refine technical updates | Better documentation continuity |
-| Release communication | Draft release notes and customer updates | Clearer downstream communication |
+| Delivery Stage | Primary Tools | Role | Intended Benefit |
+|---|---|---|---|
+| Requirement clarification | ChatGPT, Codex | Summarize needs, identify ambiguity, structure requirements | Better requirement quality |
+| Planning and decomposition | Codex, GitHub Boards | Draft epics, stories, acceptance criteria, sequence work | Faster execution readiness |
+| Design alignment | Google Stitch, Codex | Explore UI direction and support option framing | Better design-to-build alignment |
+| Implementation | GitHub Copilot, Codex | Accelerate coding inside repository guardrails | Faster development with better fit |
+| Repository-aware review | Greptile, Codex | Improve PR quality and interpret review findings | Higher-value review |
+| Trusted technical context | MCP-connected sources | Ground AI output in authoritative current references | Better accuracy and relevance |
+| Documentation and release communication | Codex, ChatGPT | Draft technical updates, release notes, customer updates | Clearer downstream communication |
 
 ```mermaid
-flowchart TB
-    A[AI Across the Lifecycle]
-    A --> B[Clarify]
-    A --> C[Plan]
-    A --> D[Design]
-    A --> E[Build]
-    A --> F[Review]
-    A --> G[Document]
-    A --> H[Communicate]
+flowchart LR
+    A[Customer Need] --> B[ChatGPT and Codex<br/>Clarify Requirements]
+    B --> C[Codex and GitHub Boards<br/>Plan and Decompose Work]
+    C --> D[Google Stitch and Codex<br/>Align UI and Scope]
+    D --> E[GitHub Copilot and Codex<br/>Implement Inside Guardrails]
+    E --> F[Greptile and Codex<br/>Review and Refine PRs]
+    F --> G[Codex and ChatGPT<br/>Document and Draft Release Notes]
+    G --> H[Customer Communication]
 ```
 
 ## 7. What Good Looks Like in Practice
@@ -356,32 +357,33 @@ flowchart LR
 
 A practical delivery scenario shows how the model works in operation. Consider a customer request to improve a reporting workflow. The initial request may contain business intent, user pain points, and expected outcomes, but not yet a clear engineering structure.
 
-In a governed model, AI first supports clarification. The request is summarized, assumptions are surfaced, and the need is translated into structured requirements. Work is then decomposed into issues or stories with clearer acceptance boundaries. If user-facing workflow changes are involved, AI can also support early design and scope alignment before implementation begins.
+In a governed model, ChatGPT and Codex first support clarification. The request is summarized, assumptions are surfaced, and the need is translated into structured requirements. Codex then helps draft stories and issue breakdowns, while GitHub Boards supports sequencing and tracking. If the change affects a user-facing flow, Google Stitch can support early UI direction and scope alignment.
 
-Implementation then proceeds inside repository-aware controls. In the backend repository, the `creolytix-codex` plugin and `creolytix-backend-guardrails` skill guide coding expectations around placement, naming, documentation, validation, and indexing. A pull request is then reviewed with stronger baseline quality, allowing reviewers to focus more on business correctness and design fit. After merge, AI supports documentation updates and release-note drafting, improving the clarity of internal and customer communication.
+Implementation then proceeds inside repository-aware controls. In the backend repository, the `creolytix-codex` plugin and `creolytix-backend-guardrails` skill guide coding expectations around placement, naming, documentation, validation, and indexing, while GitHub Copilot supports implementation productivity. A pull request is then reviewed with stronger baseline quality. Greptile and Codex help refine review findings and improve PR quality, allowing reviewers to focus more on business correctness and design fit. MCP-connected sources can support access to trusted current technical context where needed. After merge, Codex and ChatGPT support documentation updates and release-note drafting, improving the clarity of internal and customer communication.
 
 This example matters because it demonstrates AI integration across the full software development and delivery path rather than only the coding phase.
 
-| Delivery Step | AI Contribution | Human Accountability | Governance Mechanism |
-|---|---|---|---|
-| Clarify customer request | Summarizes need and identifies ambiguity | Product | Shared operating approach |
-| Structure work | Drafts stories, issues, and acceptance criteria | Product and Engineering | Templates and workflow discipline |
-| Align design and scope | Supports option framing and refinement | Product, Design, Engineering | Review and approval checkpoints |
-| Implement backend change | Assists coding | Engineering | `creolytix-codex` and backend guardrails |
-| Review PR | Supports refinement | Reviewer | PR process and repository context |
-| Update documentation | Drafts updates | Engineering and Reviewer | Repo workflow discipline |
-| Prepare release notes | Drafts communication | Release stakeholder | Human approval before publication |
+| Delivery Step | Primary Tools | AI Contribution | Human Accountability | Governance Mechanism |
+|---|---|---|---|---|
+| Clarify customer request | ChatGPT, Codex | Summarizes need and identifies ambiguity | Product | Shared operating approach |
+| Structure work | Codex, GitHub Boards | Drafts stories, issues, acceptance criteria, tracks work | Product and Engineering | Templates and workflow discipline |
+| Align design and scope | Google Stitch, Codex | Supports option framing and UI direction | Product, Design, Engineering | Review and approval checkpoints |
+| Implement backend change | GitHub Copilot, Codex | Assists coding | Engineering | `creolytix-codex` and backend guardrails |
+| Review PR | Greptile, Codex | Supports refinement and review interpretation | Reviewer | PR process and repository context |
+| Use trusted technical context | MCP-connected sources | Grounds AI output in current references | Engineering and Reviewer | Controlled source usage |
+| Update documentation | Codex, ChatGPT | Drafts updates | Engineering and Reviewer | Repo workflow discipline |
+| Prepare release notes | Codex, ChatGPT | Drafts communication | Release stakeholder | Human approval before publication |
 
 ```mermaid
 flowchart LR
-    A[Customer Request] --> B[AI Clarification]
-    B --> C[AI-Structured Stories and Issues]
-    C --> D[AI-Supported Design and Scope Alignment]
-    D --> E[AI-Assisted Implementation with Guardrails]
-    E --> F[AI-Supported PR Review and Refinement]
+    A[Customer Request] --> B[ChatGPT and Codex<br/>Clarify Need]
+    B --> C[Codex and GitHub Boards<br/>Structure and Track Work]
+    C --> D[Google Stitch and Codex<br/>Align Design and Scope]
+    D --> E[GitHub Copilot and Codex<br/>Implement with Guardrails]
+    E --> F[Greptile and Codex<br/>Review and Refine PR]
     F --> G[Merge]
-    G --> H[AI-Assisted Documentation Update]
-    G --> I[AI-Drafted Release Notes]
+    G --> H[Codex and ChatGPT<br/>Update Documentation]
+    G --> I[Codex and ChatGPT<br/>Draft Release Notes]
     I --> J[Customer Communication]
 ```
 
@@ -398,6 +400,7 @@ The next maturity step is therefore not invention, but extension. Creolytix shou
 | Backend AI governance | Materially implemented | Extend to more backend domains and workflows |
 | Frontend governance | Templates and workflows present | Add equivalent repository-local AI controls where appropriate |
 | Cross-repository consistency | Defined conceptually | Standardize rollout patterns across repositories |
+| Tool integration visibility | Present in practice, not yet uniformly formalized | Make tool-by-stage usage explicit across repositories |
 | Measurement | Value is identifiable | Introduce KPI-based reporting |
 | Release communication flow | Supported conceptually | Standardize and measure the downstream workflow |
 
@@ -405,7 +408,7 @@ The next maturity step is therefore not invention, but extension. Creolytix shou
 
 Creolytix already has real evidence of governed AI adoption in its delivery environment. The backend repository demonstrates that workspace-level plugin registration, repository-local guardrails, and executable quality checks can be combined into a practical operating model. This is important because it shows that governance can be implemented inside the repositories where delivery work actually occurs.
 
-The strategic implication is clear. Creolytix should treat AI-assisted delivery as a managed capability that integrates AI across the full lifecycle while improving both throughput and control. The priority is not to increase tool experimentation. The priority is to scale a governed model across repositories, preserve clear human accountability, and measure whether the model improves speed, quality, consistency, review efficiency, and communication outcomes.
+The strategic implication is clear. Creolytix should treat AI-assisted delivery as a managed capability that integrates AI tools across the full lifecycle while improving both throughput and control. The priority is not to increase tool experimentation. The priority is to scale a governed model across repositories, preserve clear human accountability, and measure whether the model improves speed, quality, consistency, review efficiency, and communication outcomes.
 
 The correct next step is controlled expansion with evidence-based measurement.
 
