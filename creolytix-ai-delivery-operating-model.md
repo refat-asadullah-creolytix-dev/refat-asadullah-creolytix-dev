@@ -1,7 +1,7 @@
 # Creolytix AI-Assisted Software Delivery Model
 ## A Governed Operating Framework with Repository-Based Evidence
 
-## Executive Summary
+## 📌 Executive Summary
 
 Creolytix is establishing a governed AI-assisted software delivery model. AI is integrated across the full lifecycle, from requirement clarification to release communication. The objective is not coding acceleration alone. The objective is measurable improvement in speed, quality, consistency, governance, and customer communication.
 
@@ -15,9 +15,24 @@ This model is credible because it is already partially implemented. In the backe
 
 > **Leadership takeaway:** Creolytix should manage AI-assisted delivery as a governed operating capability with explicit lifecycle integration, repository-local controls, human accountability, and measurable outcomes.
 
+## 🧭 What Leadership Should Remember
+
+- AI is now usable across the full software delivery lifecycle.
+- Unmanaged AI usage creates delivery, quality, and governance risk.
+- Creolytix already has verified implementation elements in production repositories.
+- The next step is not experimentation. The next step is standardization, rollout, and measurement.
+
+## 🔎 Evidence Snapshot
+
+- Workspace marketplace configuration exists in the backend repository.
+- `creolytix-codex` is registered and installed by default.
+- `creolytix-backend-guardrails` exists as a real repository-local skill.
+- Reference material and validation scripts exist.
+- Backend and frontend repositories already contain workflow and template assets.
+
 ---
 
-# Part 1. The Problem & The Risks
+# ⚠️ Part 1. The Problem & The Risks
 
 ## 1. Why This Matters Now
 
@@ -142,9 +157,9 @@ flowchart TB
 
 ---
 
-# Part 2. The Ideal Solution & The Creolytix Plugin
+# 🛠️ Part 2. The Ideal Solution & The Creolytix Plugin
 
-## 5. The Ideal Operating Model
+## 5. Target Operating Model
 
 The target state is not unrestricted AI usage. The target state is governed AI support across the full software delivery lifecycle. In this model, AI assists at every major stage: requirement clarification, work structuring, design alignment, implementation support, review refinement, documentation maintenance, and release communication.
 
@@ -165,7 +180,7 @@ flowchart LR
     A --> B --> C --> D --> E --> F --> G
 ```
 
-## 6. AI Tooling Across the Full Delivery Lifecycle
+## 6. 🤖 AI Tooling Across the Full Delivery Lifecycle
 
 Creolytix uses AI as a lifecycle capability rather than as a coding-only tool. The objective is to improve the quality and speed of the full delivery chain, from customer input to customer communication.
 
@@ -194,7 +209,7 @@ flowchart LR
     G --> H[Customer Communication]
 ```
 
-## 7. The Management Model: Standardized, Governed, Measurable
+## 7. 📊 The Management Model: Standardized, Governed, Measurable
 
 A mature AI-assisted delivery model has clear operating characteristics. Prompting is not individual and inconsistent; it is guided by shared standards. AI output is not generic; it is repository-aware. Review does not focus on preventable baseline issues; it focuses on correctness, business intent, and higher-value concerns.
 
@@ -210,6 +225,17 @@ Good practice also extends beyond coding. Requirements are clarified more system
 | Documentation | Often delayed | Integrated into delivery |
 | Release communication | Variable and manual | Structured and more repeatable |
 
+### Before vs After Governed AI Delivery
+
+| Area | Before Governed Model | After Governed Model |
+|---|---|---|
+| Requirement clarity | Variable | More structured |
+| Planning | Inconsistent | Repeatable |
+| Implementation | Tool-dependent | Repository-aware |
+| Review | Corrective | Higher-value |
+| Documentation | Delayed | Integrated |
+| Communication | Inconsistent | Structured |
+
 ```mermaid
 flowchart LR
     A[Ad Hoc Use] --> B[Repeatable Team Practice]
@@ -218,7 +244,7 @@ flowchart LR
     D --> E[Measured Continuous Improvement]
 ```
 
-## 8. The Role of the Creolytix Plugin
+## 8. 🧩 The Role of the Creolytix Plugin
 
 The Creolytix plugin is the practical control mechanism that translates AI governance into repeatable behavior. Its role is not merely to make Codex available. Its role is to standardize how Codex behaves within the delivery environment.
 
@@ -250,7 +276,7 @@ flowchart TB
     E --> F
 ```
 
-## 9. Governance and Human Accountability
+## 9. 🛡️ Governance and Human Accountability
 
 The Creolytix model depends on layered governance rather than a single control. Workspace-level registration provides consistency across environments. Repository-local plugins and skills provide codebase-specific guidance. Templates and workflows provide delivery structure. Human review ensures that decision-making and approval remain with accountable roles.
 
@@ -276,7 +302,7 @@ flowchart LR
     D[Human Review and Approval] --> E
 ```
 
-## 10. Expected Benefits
+## 10. 📈 Expected Benefits
 
 A governed AI-assisted model should improve both throughput and control. The expected value is not limited to faster implementation. It includes faster conversion of customer input into execution-ready work, improved consistency of engineering output, more efficient review, better documentation discipline, and clearer release communication.
 
@@ -291,6 +317,16 @@ These benefits should be interpreted operationally. Faster delivery matters when
 | Documentation | Faster and more reliable updates after change |
 | Communication | More consistent release-note preparation |
 
+### KPI Scorecard Framework
+
+| Dimension | KPI | Target Direction |
+|---|---|---|
+| Speed | Time from request to issue readiness | Down |
+| Quality | PR revision rounds before approval | Down |
+| Consistency | Percentage of repositories using approved AI controls | Up |
+| Documentation | Time from merge to documentation update | Down |
+| Communication | Time from merge to release-note draft | Down |
+
 ```mermaid
 mindmap
   root((Governed AI Delivery))
@@ -304,9 +340,9 @@ mindmap
 
 ---
 
-# Part 3. Real-World Implementation (Evidence-Integrated)
+# ✅ Part 3. Real-World Implementation (Evidence-Integrated)
 
-## 11. What Is Already Implemented
+## 11. Verified Implementation Today
 
 The model is not theoretical. In the backend repository `Creolytix-GmbH/l3-net-creolytix-engr`, Creolytix already has concrete implementation elements that demonstrate repository-native AI governance.
 
@@ -329,7 +365,7 @@ flowchart LR
     B --> B4[Release Workflow Standardization]
 ```
 
-## 12. Verified Repository Evidence
+## 12. 🔎 Verified Repository Evidence
 
 The following repository assets provide concrete evidence that governed backend AI usage is already implemented in practice rather than described only at policy level.
 
@@ -352,7 +388,7 @@ flowchart LR
     E --> F[Governed Backend Change Quality]
 ```
 
-## 13. Real-Work Example: AI Across the Full Delivery Path
+## 13. 🧪 Real-Work Example: AI Across the Full Delivery Path
 
 A practical delivery scenario shows how the model works in operation. Consider a customer request to improve a reporting workflow. The initial request may contain business intent, user pain points, and expected outcomes, but not yet a clear engineering structure.
 
@@ -386,7 +422,7 @@ flowchart LR
     I --> J[Customer Communication]
 ```
 
-## 14. Current-State Assessment
+## 14. Current State and Next Step
 
 Creolytix already has a meaningful foundation for governed AI-assisted delivery. The backend repository provides clear evidence of workspace registration, plugin-based Codex governance, repository-local skill guidance, and executable validation support. This is a substantive implementation base rather than a conceptual aspiration.
 
@@ -419,13 +455,15 @@ quadrantChart
     Release workflow standardization: [0.45, 0.75]
 ```
 
-## 15. Leadership Conclusion
+## 🎯 Leadership Conclusion
 
 Creolytix already has real evidence of governed AI adoption in its delivery environment. The backend repository demonstrates that workspace-level plugin registration, repository-local guardrails, and executable quality checks can be combined into a practical operating model. This shows that governance can be implemented inside the repositories where delivery work actually occurs.
 
 The strategic implication is direct. Creolytix should treat AI-assisted delivery as a managed capability that integrates AI tools across the full lifecycle while improving both throughput and control. The priority is not more tool experimentation. The priority is scaling a governed model across repositories, preserving clear human accountability, and measuring whether the model improves speed, quality, consistency, review efficiency, and communication outcomes.
 
 The next step is controlled expansion with evidence-based measurement.
+
+> **Bottom line:** Creolytix should scale governed AI-assisted delivery as an operating model, not permit AI adoption to remain a set of local, unmanaged practices.
 
 ```mermaid
 flowchart TB
@@ -436,3 +474,27 @@ flowchart TB
     A --> E[Lower Operational Risk]
     A --> F[Stronger Customer Communication]
 ```
+
+## ✅ Leadership Decisions Required
+
+1. Confirm governed AI-assisted delivery as a strategic operating capability.
+2. Standardize workspace and repository controls across priority repositories.
+3. Define KPI tracking for speed, quality, consistency, documentation, and communication.
+4. Expand repository-local guardrails beyond the current backend example.
+
+# Appendix
+
+## Appendix A. Verified Repository References
+
+The following repository assets are the principal evidence points referenced in this document:
+
+- `Creolytix-GmbH/l3-net-creolytix-engr/.agents/plugins/marketplace.json`
+- `Creolytix-GmbH/l3-net-creolytix-engr/plugins/creolytix-codex/.codex-plugin/plugin.json`
+- `Creolytix-GmbH/l3-net-creolytix-engr/plugins/creolytix-codex/skills/creolytix-backend-guardrails/SKILL.md`
+- `Creolytix-GmbH/l3-net-creolytix-engr/plugins/creolytix-codex/skills/creolytix-backend-guardrails/references/authoritative-files.md`
+- `Creolytix-GmbH/l3-net-creolytix-engr/plugins/creolytix-codex/skills/creolytix-backend-guardrails/scripts/check-creolytix-backend-guardrails.ps1`
+- `Creolytix-GmbH/l3-net-creolytix-engr/.github/ISSUE_TEMPLATE`
+- `Creolytix-GmbH/l3-net-creolytix-engr/.github/workflows`
+- `Creolytix-GmbH/l3-react-creolytix-engr/.github/ISSUE_TEMPLATE`
+- `Creolytix-GmbH/l3-react-creolytix-engr/.github/PULL_REQUEST_TEMPLATE.md`
+- `Creolytix-GmbH/l3-react-creolytix-engr/.github/workflows`
