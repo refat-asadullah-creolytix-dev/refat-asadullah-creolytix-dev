@@ -329,13 +329,27 @@ These benefits should be interpreted operationally. Faster delivery matters when
 
 ```mermaid
 mindmap
-  root((Governed AI Delivery))
+  root((AI-Assisted Delivery Objectives))
     Speed
+      Faster requirement clarification
+      Faster issue planning
+      Faster documentation and release notes
     Quality
+      Better stories
+      Better acceptance criteria
+      Better PR refinement
     Consistency
-    Review Efficiency
-    Documentation Discipline
-    Customer Communication
+      Workspace-level plugin controls
+      Repo-local rules and workflows
+      Shared patterns and principles
+    Guardrails
+      Security boundaries
+      Approved workflows
+      Human approvals
+    Human Review
+      Product validation
+      Engineering review
+      Stakeholder approval
 ```
 
 ---
