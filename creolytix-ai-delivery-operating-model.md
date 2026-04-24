@@ -157,20 +157,6 @@ flowchart LR
 | During review | Review remains mostly corrective | More reviewer focus on correctness and intent |
 | After merge | Documentation and communication lag | Faster downstream updates |
 
-```mermaid
-quadrantChart
-    title AI value across the delivery lifecycle
-    x-axis Lower governance importance --> Higher governance importance
-    y-axis Lower value potential --> Higher value potential
-    Requirement clarification: [0.75, 0.82]
-    Planning and decomposition: [0.78, 0.86]
-    Design alignment: [0.60, 0.66]
-    Implementation: [0.88, 0.91]
-    AI-assisted review: [0.85, 0.84]
-    Documentation: [0.58, 0.71]
-    Release communication: [0.55, 0.69]
-```
-
 ---
 
 # 4. Requirement-to-Release Example
