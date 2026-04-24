@@ -436,20 +436,3 @@ flowchart TB
     A --> E[Lower Operational Risk]
     A --> F[Stronger Customer Communication]
 ```
-
-# Appendix
-
-## Appendix A. Verified Repository References
-
-The following repository assets are the principal evidence points referenced in this document:
-
-- `Creolytix-GmbH/l3-net-creolytix-engr/.agents/plugins/marketplace.json`
-- `Creolytix-GmbH/l3-net-creolytix-engr/plugins/creolytix-codex/.codex-plugin/plugin.json`
-- `Creolytix-GmbH/l3-net-creolytix-engr/plugins/creolytix-codex/skills/creolytix-backend-guardrails/SKILL.md`
-- `Creolytix-GmbH/l3-net-creolytix-engr/plugins/creolytix-codex/skills/creolytix-backend-guardrails/references/authoritative-files.md`
-- `Creolytix-GmbH/l3-net-creolytix-engr/plugins/creolytix-codex/skills/creolytix-backend-guardrails/scripts/check-creolytix-backend-guardrails.ps1`
-- `Creolytix-GmbH/l3-net-creolytix-engr/.github/ISSUE_TEMPLATE`
-- `Creolytix-GmbH/l3-net-creolytix-engr/.github/workflows`
-- `Creolytix-GmbH/l3-react-creolytix-engr/.github/ISSUE_TEMPLATE`
-- `Creolytix-GmbH/l3-react-creolytix-engr/.github/PULL_REQUEST_TEMPLATE.md`
-- `Creolytix-GmbH/l3-react-creolytix-engr/.github/workflows`
