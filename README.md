@@ -29,7 +29,7 @@
 
 Engineering leader with 11+ years building software and the teams that ship it. I founded a startup that was acquired, scaled engineering organizations from scratch, and led teams through an acquisition by F24, while staying close to the architecture and the code.
 
-Today I am VP of Engineering at **Creolytix (an F24 company)**, building enterprise risk intelligence and operational-resilience SaaS: risk monitoring, threat analysis, and real-time alerting. I lead through credibility rather than ceremony, and I care about systems and people that outlast any single individual.
+Today I am VP of Engineering at **[Creolytix](https://creolytix.io/) (an F24 company)**, building enterprise risk intelligence and operational-resilience SaaS: risk monitoring, threat analysis, and real-time alerting. I lead through credibility rather than ceremony, and I care about systems and people that outlast any single individual.
 
 ---
 
@@ -76,11 +76,11 @@ A decade-plus shipping products across very different industries. A sample of wh
 
 | Industry | What I built · impact |
 |---|---|
-| **Risk intelligence & resilience** | Creolytix platform; 99.9% uptime across 20+ tenants; trusted by SIEMENS and Innomotics |
+| **Risk intelligence & resilience** | [Creolytix](https://creolytix.io/) platform; 99.9% uptime across 20+ tenants; trusted by SIEMENS and Innomotics |
 | **Fintech & insurtech** | Financial-accounting and ERP-finance systems for SMEs and corporates |
 | **Electronic signature & digital trust** | [SELISE Signature](https://selisesignature.com/): eIDAS / ZertES-qualified e-signature platform (SWISSCOM, SigningHub) |
 | **Healthcare** | Hospital management system (HMS) for a national healthcare provider |
-| **Retail, F&B & hospitality** | Prokriyon ERP (100+ businesses, 50+ sectors); HOSTT POS serving 2,500+ restaurants |
+| **Retail, F&B & hospitality** | Prokriyon ERP (100+ businesses, 50+ sectors); [HOSTT](https://3ssoftltd.com/) POS serving 2,500+ restaurants |
 | **Logistics & maritime** | GO! Fetch logistics-automation platform; OSM Thome maritime data hub |
 | **Manufacturing & telecom** | Vario Systems (global EMS) manufacturing intelligence; Sunrise (Swiss telco) |
 
