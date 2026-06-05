@@ -9,7 +9,11 @@
 </p>
 
 <p align="center">
-  <b>I build engineering organizations and the platforms they ship: enterprise risk intelligence at scale.</b>
+  <img alt="what I do" src="https://readme-typing-svg.demolab.com?font=Segoe+UI&weight=600&size=22&pause=1000&color=2E5F8A&center=true&vCenter=true&width=820&lines=VP+of+Engineering+%C2%B7+Systems+Thinker+%C2%B7+Hands-on+Coder;Architecting+systems+that+survive+production;Old-school+fundamentals+%2B+modern+execution" />
+</p>
+
+<p align="center">
+  <b>I build engineering organizations and the platforms they ship, across fintech, healthcare, e-signature, logistics, manufacturing, and risk intelligence.</b>
 </p>
 
 <p align="center">
@@ -29,6 +33,17 @@ Today I am VP of Engineering at **Creolytix (an F24 company)**, building enterpr
 
 ---
 
+## How my brain is wired
+
+- 🧱 Strong systems outlive strong individuals
+- 🧼 Clean code > clever code
+- 📐 Architecture is a business decision
+- 🤝 Leadership without empathy is just noise
+- 📈 Discipline compounds; excuses don't
+- 👨‍💻 Still hands-on: titles change, craft doesn't
+
+---
+
 ## Impact, by the numbers
 
 | | |
@@ -38,7 +53,23 @@ Today I am VP of Engineering at **Creolytix (an F24 company)**, building enterpr
 | **30K+** events/day into real-time alerts | **85K+** notifications across SMS, WhatsApp, MS Teams, push |
 | Fully delivered a marquee **SIEMENS** contract | Led engineering through **acquisition by F24** |
 
-> During the **2026 Iran–Israel war**, enterprise customer **Innomotics** relied on the platform to protect staff and keep emergency field repairs running for energy clients like **Qatar Energy** and **Adnoc**.
+> During the **2026 Iran–Israel war**, enterprise customer **Innomotics** relied on **Creolytix** to protect staff and keep emergency field repairs running for energy clients like **Qatar Energy** and **Adnoc**.
+
+---
+
+## Industry footprint
+
+A decade-plus shipping products across very different industries. A sample of what I built and the impact:
+
+| Industry | What I built · impact |
+|---|---|
+| **Risk intelligence & resilience** | Creolytix platform; 99.9% uptime across 20+ tenants; trusted by SIEMENS and Innomotics |
+| **Fintech & insurtech** | Financial-accounting and ERP-finance systems for SMEs and corporates |
+| **Electronic signature & digital trust** | eIDAS / ZertES-qualified e-signature platform (SWISSCOM, SigningHub) |
+| **Healthcare** | Hospital management system (HMS) for a national healthcare provider |
+| **Retail, F&B & hospitality** | Prokriyon ERP (100+ businesses, 50+ sectors); HOSTT POS serving 2,500+ restaurants |
+| **Logistics & maritime** | GO! Fetch logistics-automation platform; OSM Thome maritime data hub |
+| **Manufacturing & telecom** | Vario Systems (global EMS) manufacturing intelligence; Sunrise (Swiss telco) |
 
 ---
 
@@ -78,10 +109,25 @@ Today I am VP of Engineering at **Creolytix (an F24 company)**, building enterpr
 | **[dotnet-essential-services](https://github.com/asadullah-refat-89/dotnet-essential-services)** | A .NET minimal-API reference for clean, domain-driven architecture (identity, auth, storage, email) | ⭐ 38 |
 | **[astro-odyssey-uno-platform](https://github.com/asadullah-refat-89/Astro-Odyssey-Uno-Platform)** | Cross-platform space shooter in C# + WebAssembly · ▶ [Play in browser](https://asadullah-refat-89.github.io/astro-odyssey-uno-platform/) | ⭐ 25 |
 | **[phototis-uno-platform](https://github.com/asadullah-refat-89/Phototis-Uno-Platform)** | A WebAssembly photo-editing studio · ▶ [Play in browser](https://asadullah-refat-89.github.io/phototis-uno-platform/) | |
-| **[honk-buster-game-pixijs](https://github.com/asadullah-refat-89/honk-buster-game-pixijs)** | WebGL arcade game in PixiJS / TypeScript · ▶ [Play in browser](https://asadullah-refat-89.github.io/honk-buster-game-pixijs/) | |
 | **[Worldescape](https://github.com/asadullah-refat-89/Worldescape)** | Real-time retro 2D platformer (WASM + SignalR + OpenSilver) | |
 
 More open-source work on my [personal account](https://github.com/asadullah-refat-89).
+
+---
+
+## Arcade mode (things I build for fun)
+
+> Zero Jira tickets. Maximum curiosity. Several run right in your browser.
+
+| Cabinet | Play / code | Vibe |
+|---|---|---|
+| 🚗 Honky Roads | ▶ [Play](https://asadullah-refat-89.github.io/honk-buster-game-pixijs/) · [code](https://github.com/asadullah-refat-89/honk-buster-game-pixijs) | WebGL arcade energy (PixiJS) |
+| 🚦 Honk-Buster | [code](https://github.com/asadullah-refat-89/honk-buster-game-uno-platform) | Cross-platform, C# powered |
+| 🍬 Candy-Craze | [code](https://github.com/asadullah-refat-89/candy-craze-uno-platform) | Sweet chaos |
+| 🐛 Hungry-Worm | [code](https://github.com/asadullah-refat-89/hungry-worm-uno-platform) | Classic arcade loop |
+| ✈️ Sky-Way | [code](https://github.com/asadullah-refat-89/sky-way-uno-platform) | Fast-reflex runway |
+| 🧠 Memory-Match | [code](https://github.com/asadullah-refat-89/memory-match-uno-platform) | Pattern lock-in |
+| 🦸 Honk-Hero | [code](https://github.com/asadullah-refat-89/honk-hero-uno-platform) | Arcade hero run |
 
 ---
 
@@ -183,6 +229,16 @@ More open-source work on my [personal account](https://github.com/asadullah-refa
 
 ---
 
+## A few honest quirks
+
+- 😎 Ambivert, selectively social
+- 🧐 Precision addict, procrastination hater
+- ✍️ My comments explain **why**, not **what**
+- ☕ Coffee-powered problem solver
+- 🌙 Curiosity occasionally steals my sleep
+
+---
+
 <p align="center">
-  <i>Strong systems outlive strong individuals. Craft matters, people matter, everything else is noise.</i>
+  <i>Craft matters. People matter. Everything else is noise.</i>
 </p>
