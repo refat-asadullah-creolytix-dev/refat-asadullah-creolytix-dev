@@ -81,8 +81,8 @@ A decade-plus shipping products across very different industries. A sample of wh
 | **Electronic signature & digital trust** | [SELISE Signature](https://selisesignature.com/): eIDAS / ZertES-qualified e-signature platform (SWISSCOM, SigningHub) |
 | **Healthcare** | Hospital management system (HMS) for a national healthcare provider |
 | **Retail, F&B & hospitality** | Prokriyon ERP (100+ businesses, 50+ sectors); [HOSTT](https://3ssoftltd.com/) POS serving 2,500+ restaurants |
-| **Logistics & maritime** | GO! Fetch logistics-automation platform; OSM Thome maritime data hub |
-| **Manufacturing & telecom** | Vario Systems (global EMS) manufacturing intelligence; Sunrise (Swiss telco) |
+| **Logistics & maritime** | GO! Fetch logistics-automation platform; [OSM Thome](https://selisegroup.com/selises-expertise-with-microsoft-fabric/) maritime data hub |
+| **Manufacturing & telecom** | Vario Systems (global EMS) manufacturing intelligence; [Sunrise](https://selisegroup.com/onehub-by-selise-enabling-scalable-quote-to-order-processes-for-sunrise/) (Swiss telco) |
 
 ---
 
@@ -153,6 +153,18 @@ More open-source work on my [personal account](https://github.com/asadullah-refa
 - [Lisbon Web Summit 2025: Startup Showcase](https://www.youtube.com/watch?v=P_a1WHIpKHg)
 - [10 days of game development with Uno Platform, WebAssembly & C#](https://platform.uno/blog/10-days-of-game-development-with-uno-platform-webassembly-and-c/)
 - [A space shooter game on the web with C# & WASM](https://platform.uno/blog/a-space-shooter-game-on-the-web-with-c-wasm-and-uno-platform/)
+
+---
+
+## Case studies
+
+Deep-dives on platforms and engagements I led at SELISE:
+
+- [OSM Thome: enterprise data platform on Microsoft Fabric](https://selisegroup.com/selises-expertise-with-microsoft-fabric/)
+- [Sunrise: scalable quote-to-order with OneHub](https://selisegroup.com/onehub-by-selise-enabling-scalable-quote-to-order-processes-for-sunrise/)
+- [Sunrise: connecting buildings to the network](https://selisegroup.com/sunrise-connects-buildings-totheir-network-with-selise/)
+- [Multiplatform casual games with WebAssembly & .NET 7](https://selisegroup.com/the-multiplatform-casual-games-using-wasm-and-net-7/)
+- [SiKUBA: advanced security & access-control solution](https://selisegroup.com/delivering-advanced-security-solution-with-selise/)
 
 ---
 
