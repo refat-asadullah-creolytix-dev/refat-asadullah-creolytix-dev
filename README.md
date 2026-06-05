@@ -78,7 +78,7 @@ A decade-plus shipping products across very different industries. A sample of wh
 |---|---|
 | **Risk intelligence & resilience** | Creolytix platform; 99.9% uptime across 20+ tenants; trusted by SIEMENS and Innomotics |
 | **Fintech & insurtech** | Financial-accounting and ERP-finance systems for SMEs and corporates |
-| **Electronic signature & digital trust** | eIDAS / ZertES-qualified e-signature platform (SWISSCOM, SigningHub) |
+| **Electronic signature & digital trust** | [SELISE Signature](https://selisesignature.com/): eIDAS / ZertES-qualified e-signature platform (SWISSCOM, SigningHub) |
 | **Healthcare** | Hospital management system (HMS) for a national healthcare provider |
 | **Retail, F&B & hospitality** | Prokriyon ERP (100+ businesses, 50+ sectors); HOSTT POS serving 2,500+ restaurants |
 | **Logistics & maritime** | GO! Fetch logistics-automation platform; OSM Thome maritime data hub |
@@ -119,6 +119,8 @@ A decade-plus shipping products across very different industries. A sample of wh
 
 | Project | What it is | Stars |
 |---|---|---|
+| **[SELISE Blocks](https://seliseblocks.com/)** | Core microservices / low-code platform framework I built at SELISE | |
+| **[SELISE Signature](https://selisesignature.com/)** | eIDAS / ZertES-qualified e-signature platform (SWISSCOM, SigningHub) | |
 | **[dotnet-essential-services](https://github.com/asadullah-refat-89/dotnet-essential-services)** | A .NET minimal-API reference for clean, domain-driven architecture (identity, auth, storage, email) | ⭐ 38 |
 | **[astro-odyssey-uno-platform](https://github.com/asadullah-refat-89/Astro-Odyssey-Uno-Platform)** | Cross-platform space shooter in C# + WebAssembly · ▶ [Play in browser](https://asadullah-refat-89.github.io/astro-odyssey-uno-platform/) | ⭐ 25 |
 | **[phototis-uno-platform](https://github.com/asadullah-refat-89/Phototis-Uno-Platform)** | A WebAssembly photo-editing studio · ▶ [Play in browser](https://asadullah-refat-89.github.io/phototis-uno-platform/) | |
@@ -135,12 +137,13 @@ More open-source work on my [personal account](https://github.com/asadullah-refa
 | Cabinet | Play / code | Vibe |
 |---|---|---|
 | 🚗 Honky Roads | ▶ [Play](https://asadullah-refat-89.github.io/honk-buster-game-pixijs/) · [code](https://github.com/asadullah-refat-89/honk-buster-game-pixijs) | WebGL arcade energy (PixiJS) |
-| 🚦 Honk-Buster | [code](https://github.com/asadullah-refat-89/honk-buster-game-uno-platform) | Cross-platform, C# powered |
-| 🍬 Candy-Craze | [code](https://github.com/asadullah-refat-89/candy-craze-uno-platform) | Sweet chaos |
-| 🐛 Hungry-Worm | [code](https://github.com/asadullah-refat-89/hungry-worm-uno-platform) | Classic arcade loop |
-| ✈️ Sky-Way | [code](https://github.com/asadullah-refat-89/sky-way-uno-platform) | Fast-reflex runway |
-| 🧠 Memory-Match | [code](https://github.com/asadullah-refat-89/memory-match-uno-platform) | Pattern lock-in |
-| 🦸 Honk-Hero | [code](https://github.com/asadullah-refat-89/honk-hero-uno-platform) | Arcade hero run |
+| 🚦 Honk-Buster | ▶ [Play](https://asadullah-refat-89.github.io/honk-buster-game-uno-platform/) · [code](https://github.com/asadullah-refat-89/honk-buster-game-uno-platform) | Cross-platform, C# powered |
+| 🪖 Honk-Trooper | ▶ [Play](https://asadullah-refat-89.github.io/honk-trooper-uno-platform/) · [code](https://github.com/asadullah-refat-89/honk-trooper-uno-platform) | Side-scrolling shooter |
+| 🍬 Candy-Craze | ▶ [Play](https://asadullah-refat-89.github.io/candy-craze-uno-platform/) · [code](https://github.com/asadullah-refat-89/candy-craze-uno-platform) | Sweet chaos |
+| 🐛 Hungry-Worm | ▶ [Play](https://asadullah-refat-89.github.io/hungry-worm-uno-platform/) · [code](https://github.com/asadullah-refat-89/hungry-worm-uno-platform) | Classic arcade loop |
+| ✈️ Sky-Way | ▶ [Play](https://asadullah-refat-89.github.io/sky-way-uno-platform/) · [code](https://github.com/asadullah-refat-89/sky-way-uno-platform) | Fast-reflex runway |
+| 🧠 Memory-Match | ▶ [Play](https://asadullah-refat-89.github.io/memory-match-uno-platform/) · [code](https://github.com/asadullah-refat-89/memory-match-uno-platform) | Pattern lock-in |
+| 🦸 Honk-Hero | ▶ [Play](https://asadullah-refat-89.github.io/honk-hero-uno-platform/) · [code](https://github.com/asadullah-refat-89/honk-hero-uno-platform) | Arcade hero run |
 
 ---
 
