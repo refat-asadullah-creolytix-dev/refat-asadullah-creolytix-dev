@@ -112,19 +112,19 @@ More open-source work on my [personal account](https://github.com/asadullah-refa
 ![ASP.NET Core](https://img.shields.io/badge/ASP.NET%20Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![Web API](https://img.shields.io/badge/Web%20API-5C2D91?style=for-the-badge&logo=dotnet&logoColor=white)
 ![Entity Framework](https://img.shields.io/badge/Entity%20Framework-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![REST](https://img.shields.io/badge/REST-02569B?style=for-the-badge&logo=fastapi&logoColor=white)
+![REST](https://img.shields.io/badge/REST-02569B?style=for-the-badge)
 ![SignalR](https://img.shields.io/badge/SignalR-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
+![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=for-the-badge)
 
 **Frontend & cross-platform**
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Blazor](https://img.shields.io/badge/Blazor%20WASM-512BD4?style=for-the-badge&logo=blazor&logoColor=white)
-![Uno Platform](https://img.shields.io/badge/Uno%20Platform-0046D5?style=for-the-badge&logo=uno&logoColor=white)
+![Uno Platform](https://img.shields.io/badge/Uno%20Platform-0046D5?style=for-the-badge)
 ![WinUI 3](https://img.shields.io/badge/WinUI%203-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 ![WPF](https://img.shields.io/badge/WPF-0C54C2?style=for-the-badge&logo=windows&logoColor=white)
 ![ASP.NET MVC](https://img.shields.io/badge/ASP.NET%20MVC-5C2D91?style=for-the-badge&logo=dotnet&logoColor=white)
-![PixiJS](https://img.shields.io/badge/PixiJS-E91E63?style=for-the-badge&logo=pixiv&logoColor=white)
+![PixiJS](https://img.shields.io/badge/PixiJS-E91E63?style=for-the-badge)
 ![OpenSilver](https://img.shields.io/badge/OpenSilver-1E88E5?style=for-the-badge)
 ![MudBlazor](https://img.shields.io/badge/MudBlazor-594AE2?style=for-the-badge&logo=mui&logoColor=white)
 ![Telerik](https://img.shields.io/badge/Telerik-7A1FA2?style=for-the-badge)
@@ -135,7 +135,7 @@ More open-source work on my [personal account](https://github.com/asadullah-refa
 ![React Native](https://img.shields.io/badge/React%20Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![.NET MAUI](https://img.shields.io/badge/.NET%20MAUI-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![Xamarin](https://img.shields.io/badge/Xamarin-3498DB?style=for-the-badge&logo=xamarin&logoColor=white)
-![Uno Platform](https://img.shields.io/badge/Uno%20Platform-0046D5?style=for-the-badge&logo=uno&logoColor=white)
+![Uno Platform](https://img.shields.io/badge/Uno%20Platform-0046D5?style=for-the-badge)
 
 **Data & search**
 
