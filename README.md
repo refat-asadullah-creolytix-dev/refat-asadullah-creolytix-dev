@@ -88,7 +88,6 @@ More open-source work on my [personal account](https://github.com/asadullah-refa
 ## Recognition and talks
 
 - **Microsoft .NET Conf 2023**: showcased for WebAssembly ecosystem contributions
-- **Top-10 GitHub contributor in Bangladesh** (of 109,000+)
 - [Lisbon Web Summit 2025: Startup Showcase](https://www.youtube.com/watch?v=P_a1WHIpKHg)
 - [10 days of game development with Uno Platform, WebAssembly & C#](https://platform.uno/blog/10-days-of-game-development-with-uno-platform-webassembly-and-c/)
 - [A space shooter game on the web with C# & WASM](https://platform.uno/blog/a-space-shooter-game-on-the-web-with-c-wasm-and-uno-platform/)
