@@ -49,7 +49,7 @@ Engineer by training. Builder by instinct. Leader by responsibility.
 
 For over a decade, I’ve been designing, breaking, fixing, and scaling software systems and the humans brave enough to build them with me. I live where **technology, people, and business reality collide**. Titles change. Craft doesn’t.
 
-Currently, I’m the **Vice President of Engineering at Creolytix GmbH (Germany 🇩🇪)**, building platforms for **operational resilience**: real-time risk detection, analytics, and incident response. Because production doesn’t care about your feelings.
+Currently, I’m the **Vice President of Engineering at Creolytix GmbH (Germany 🇩🇪)**, building **enterprise risk intelligence and operational-resilience** SaaS: risk monitoring, threat analysis, and real-time alerting. Because production doesn’t care about your feelings.
 
 Despite the leadership role and the occasional stage talk, I still code. A lot. Probably more than is medically advised 😅.
 
@@ -58,10 +58,12 @@ Despite the leadership role and the occasional stage talk, I still code. A lot. 
 ## 📊 Impact, by the numbers
 
 - Built a founding engineering team from **3 to 11** (hired every engineer), then led it through Creolytix's **acquisition by F24**
+- Shipped **227 features to production in H1 2026** with a lean 7-engineer team
 - Platform runs at **99.9% uptime** for **20+ enterprise tenants** and **500+ users**
 - **30K+ events a day** turned into real-time alerts, plus **85K+ notifications** across SMS, WhatsApp, MS Teams, and push
-- **CHF 2.6M+** in revenue generated through pre-sales, architecture, and delivery
-- Trusted by **SIEMENS** and **Innomotics** for operational resilience in live, high-stakes situations
+- Generated **CHF 2.6M+** in revenue through pre-sales, architecture, and delivery
+- Fully delivered a marquee **SIEMENS** enterprise contract
+- During the **2026 Iran–Israel war**, **Innomotics** relied on the platform to protect staff and keep emergency field repairs running for energy clients like **Qatar Energy** and **Adnoc**
 - **Microsoft .NET Conf 2023** speaker · **top-10 GitHub contributor in Bangladesh** (of 109,000+)
 
 ## 🧭 How my brain is wired
