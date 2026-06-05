@@ -119,7 +119,7 @@ A decade-plus shipping products across very different industries. A sample of wh
 
 | Project | What it is | Stars |
 |---|---|---|
-| **[SELISE Blocks](https://seliseblocks.com/)** | Core microservices / low-code platform framework I built at SELISE | |
+| **[SELISE Blocks](https://seliseblocks.com/)** | Core microservices / low-code platform framework I contributed to at SELISE | |
 | **[SELISE Signature](https://selisesignature.com/)** | eIDAS / ZertES-qualified e-signature platform (SWISSCOM, SigningHub) | |
 | **[dotnet-essential-services](https://github.com/asadullah-refat-89/dotnet-essential-services)** | A .NET minimal-API reference for clean, domain-driven architecture (identity, auth, storage, email) | ⭐ 38 |
 | **[astro-odyssey-uno-platform](https://github.com/asadullah-refat-89/Astro-Odyssey-Uno-Platform)** | Cross-platform space shooter in C# + WebAssembly · ▶ [Play in browser](https://asadullah-refat-89.github.io/astro-odyssey-uno-platform/) | ⭐ 25 |
@@ -158,8 +158,9 @@ More open-source work on my [personal account](https://github.com/asadullah-refa
 
 ## Case studies
 
-Deep-dives on platforms and engagements I led at SELISE:
+Deep-dives on platforms and engagements I led at [SELISE](https://selisegroup.com/):
 
+- [Creolytix: building a new venture in the security space](https://selisegroup.com/elevating-a-new-venture-in-thesecurity-space-with-creolytix/)
 - [OSM Thome: enterprise data platform on Microsoft Fabric](https://selisegroup.com/selises-expertise-with-microsoft-fabric/)
 - [Sunrise: scalable quote-to-order with OneHub](https://selisegroup.com/onehub-by-selise-enabling-scalable-quote-to-order-processes-for-sunrise/)
 - [Sunrise: connecting buildings to the network](https://selisegroup.com/sunrise-connects-buildings-totheir-network-with-selise/)
