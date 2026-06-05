@@ -59,6 +59,19 @@ Today I am VP of Engineering at **Creolytix (an F24 company)**, building enterpr
 
 ## Industry footprint
 
+![Risk Intelligence](https://img.shields.io/badge/Risk%20Intelligence-1f3b5b?style=for-the-badge)
+![Fintech](https://img.shields.io/badge/Fintech-1f3b5b?style=for-the-badge)
+![Insurtech](https://img.shields.io/badge/Insurtech-1f3b5b?style=for-the-badge)
+![Electronic Signature](https://img.shields.io/badge/Electronic%20Signature-1f3b5b?style=for-the-badge)
+![Healthcare](https://img.shields.io/badge/Healthcare-1f3b5b?style=for-the-badge)
+![Retail](https://img.shields.io/badge/Retail-1f3b5b?style=for-the-badge)
+![Food & Beverage](https://img.shields.io/badge/Food%20%26%20Beverage-1f3b5b?style=for-the-badge)
+![Hospitality](https://img.shields.io/badge/Hospitality-1f3b5b?style=for-the-badge)
+![Logistics](https://img.shields.io/badge/Logistics-1f3b5b?style=for-the-badge)
+![Maritime](https://img.shields.io/badge/Maritime-1f3b5b?style=for-the-badge)
+![Manufacturing](https://img.shields.io/badge/Manufacturing-1f3b5b?style=for-the-badge)
+![Telecom](https://img.shields.io/badge/Telecom-1f3b5b?style=for-the-badge)
+
 A decade-plus shipping products across very different industries. A sample of what I built and the impact:
 
 | Industry | What I built · impact |
