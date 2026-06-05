@@ -33,7 +33,7 @@ Today I am VP of Engineering at **Creolytix (an F24 company)**, building enterpr
 
 | | |
 |---|---|
-| **3 → 11** engineers hired and team built from scratch | **CHF 2.6M+** revenue driven via pre-sales, architecture, delivery |
+| Led a **25-person** org across **4 squads**, with **3 managers** reporting in | **CHF 2.6M+** revenue driven via pre-sales, architecture, delivery |
 | **227** features shipped to production in H1 2026 (lean team of 7) | **99.9%** uptime across **20+** enterprise tenants and **500+** users |
 | **30K+** events/day into real-time alerts | **85K+** notifications across SMS, WhatsApp, MS Teams, push |
 | Fully delivered a marquee **SIEMENS** contract | Led engineering through **acquisition by F24** |
