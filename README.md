@@ -51,9 +51,18 @@ For over a decade, I’ve been designing, breaking, fixing, and scaling software
 
 Currently, I’m the **Vice President of Engineering at Creolytix GmbH (Germany 🇩🇪)**, building platforms for **operational resilience**: real-time risk detection, analytics, and incident response. Because production doesn’t care about your feelings.
 
-Despite the leadership role and the occasional stage talk, I still code. A lot. Probably more than is medically advised (Wrote 1.8M+ lines of code in 2025) 😅!
+Despite the leadership role and the occasional stage talk, I still code. A lot. Probably more than is medically advised 😅.
 
 🔗 [My GitHub Personal Account](https://github.com/asadullah-refat-89) Where I code for fun.
+
+## 📊 Impact, by the numbers
+
+- Built a founding engineering team from **3 to 11** (hired every engineer), then led it through Creolytix's **acquisition by F24**
+- Platform runs at **99.9% uptime** for **20+ enterprise tenants** and **500+ users**
+- **30K+ events a day** turned into real-time alerts, plus **85K+ notifications** across SMS, WhatsApp, MS Teams, and push
+- **CHF 2.6M+** in revenue generated through pre-sales, architecture, and delivery
+- Trusted by **SIEMENS** and **Innomotics** for operational resilience in live, high-stakes situations
+- **Microsoft .NET Conf 2023** speaker · **top-10 GitHub contributor in Bangladesh** (of 109,000+)
 
 ## 🧭 How my brain is wired
 
