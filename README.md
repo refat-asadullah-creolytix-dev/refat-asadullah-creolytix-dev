@@ -132,7 +132,7 @@ More open-source work on my [personal account](https://github.com/asadullah-refa
 
 ## Arcade mode (things I build for fun)
 
-> Zero Jira tickets. Maximum curiosity. Several run right in your browser.
+> Casual games in C# + WebAssembly, several built for **SV Group** (a SELISE enterprise client). Most run right in your browser.
 
 | Cabinet | Play / code | Vibe |
 |---|---|---|
@@ -164,7 +164,7 @@ Deep-dives on platforms and engagements I led at [SELISE](https://selisegroup.co
 - [OSM Thome: enterprise data platform on Microsoft Fabric](https://selisegroup.com/selises-expertise-with-microsoft-fabric/)
 - [Sunrise: scalable quote-to-order with OneHub](https://selisegroup.com/onehub-by-selise-enabling-scalable-quote-to-order-processes-for-sunrise/)
 - [Sunrise: connecting buildings to the network](https://selisegroup.com/sunrise-connects-buildings-totheir-network-with-selise/)
-- [Multiplatform casual games with WebAssembly & .NET 7](https://selisegroup.com/the-multiplatform-casual-games-using-wasm-and-net-7/)
+- [Multiplatform casual games for SV Group, with WebAssembly & .NET 7](https://selisegroup.com/the-multiplatform-casual-games-using-wasm-and-net-7/)
 - [SiKUBA: advanced security & access-control solution](https://selisegroup.com/delivering-advanced-security-solution-with-selise/)
 
 ---
