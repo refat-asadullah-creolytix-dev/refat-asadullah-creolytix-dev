@@ -76,8 +76,9 @@ Today I am VP of Engineering at **Creolytix (an F24 company)**, building enterpr
 | Project | What it is | Stars |
 |---|---|---|
 | **[dotnet-essential-services](https://github.com/asadullah-refat-89/dotnet-essential-services)** | A .NET minimal-API reference for clean, domain-driven architecture (identity, auth, storage, email) | ⭐ 38 |
-| **[astro-odyssey-uno-platform](https://github.com/asadullah-refat-89/Astro-Odyssey-Uno-Platform)** | Cross-platform space shooter in C# + WebAssembly · ▶ [Play]([live demo URL]) | ⭐ 25 |
-| **[phototis-uno-platform](https://github.com/asadullah-refat-89/Phototis-Uno-Platform)** | A WebAssembly photo-editing studio · ▶ [Play]([live demo URL]) | |
+| **[astro-odyssey-uno-platform](https://github.com/asadullah-refat-89/Astro-Odyssey-Uno-Platform)** | Cross-platform space shooter in C# + WebAssembly · ▶ [Play in browser](https://asadullah-refat-89.github.io/astro-odyssey-uno-platform/) | ⭐ 25 |
+| **[phototis-uno-platform](https://github.com/asadullah-refat-89/Phototis-Uno-Platform)** | A WebAssembly photo-editing studio · ▶ [Play in browser](https://asadullah-refat-89.github.io/phototis-uno-platform/) | |
+| **[honk-buster-game-pixijs](https://github.com/asadullah-refat-89/honk-buster-game-pixijs)** | WebGL arcade game in PixiJS / TypeScript · ▶ [Play in browser](https://asadullah-refat-89.github.io/honk-buster-game-pixijs/) | |
 | **[Worldescape](https://github.com/asadullah-refat-89/Worldescape)** | Real-time retro 2D platformer (WASM + SignalR + OpenSilver) | |
 
 More open-source work on my [personal account](https://github.com/asadullah-refat-89).
