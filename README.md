@@ -50,7 +50,7 @@ Today I am VP of Engineering at **[Creolytix](https://creolytix.io/) (an F24 com
 |---|---|
 | Led a **25-person** org across **4 squads**, with **3 managers** reporting in | **CHF 2.6M+** revenue driven via pre-sales, architecture, delivery |
 | **227** features shipped to production in H1 2026 (lean team of 7) | **99.9%** uptime across **20+** enterprise tenants and **500+** users |
-| **30K+** events/day into real-time alerts | **85K+** notifications across SMS, WhatsApp, MS Teams, push |
+| **30K+** events/day into real-time alerts | **85K+** notifications/day across SMS, WhatsApp, MS Teams, push |
 | Fully delivered a marquee **SIEMENS** contract | Led engineering through **[acquisition by F24](https://f24.com/en/press-release-creolytix/)** |
 
 > During the **2026 Iran–Israel war**, enterprise customer **Innomotics** relied on **Creolytix** to protect staff and keep emergency field repairs running for energy clients like **Qatar Energy** and **Adnoc**.
