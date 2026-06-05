@@ -96,19 +96,90 @@ More open-source work on my [personal account](https://github.com/asadullah-refa
 
 ## Tech I work with
 
-![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=csharp&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET%208-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![React Native](https://img.shields.io/badge/React%20Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white)
-![SignalR](https://img.shields.io/badge/SignalR-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![Docker](https://img.shields.io/badge/CI%2FCD-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+**Languages**
 
-Architecture: microservices · event-driven · domain-driven design · clean / layered architecture
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![XAML](https://img.shields.io/badge/XAML-0C54C2?style=for-the-badge&logo=windows&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+**Backend & APIs**
+
+![.NET](https://img.shields.io/badge/.NET%208-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![ASP.NET Core](https://img.shields.io/badge/ASP.NET%20Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![Web API](https://img.shields.io/badge/Web%20API-5C2D91?style=for-the-badge&logo=dotnet&logoColor=white)
+![Entity Framework](https://img.shields.io/badge/Entity%20Framework-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![REST](https://img.shields.io/badge/REST-02569B?style=for-the-badge&logo=fastapi&logoColor=white)
+![SignalR](https://img.shields.io/badge/SignalR-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
+
+**Frontend & cross-platform**
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Blazor](https://img.shields.io/badge/Blazor%20WASM-512BD4?style=for-the-badge&logo=blazor&logoColor=white)
+![Uno Platform](https://img.shields.io/badge/Uno%20Platform-0046D5?style=for-the-badge&logo=uno&logoColor=white)
+![WinUI 3](https://img.shields.io/badge/WinUI%203-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+![WPF](https://img.shields.io/badge/WPF-0C54C2?style=for-the-badge&logo=windows&logoColor=white)
+![ASP.NET MVC](https://img.shields.io/badge/ASP.NET%20MVC-5C2D91?style=for-the-badge&logo=dotnet&logoColor=white)
+![PixiJS](https://img.shields.io/badge/PixiJS-E91E63?style=for-the-badge&logo=pixiv&logoColor=white)
+![OpenSilver](https://img.shields.io/badge/OpenSilver-1E88E5?style=for-the-badge)
+![MudBlazor](https://img.shields.io/badge/MudBlazor-594AE2?style=for-the-badge&logo=mui&logoColor=white)
+![Telerik](https://img.shields.io/badge/Telerik-7A1FA2?style=for-the-badge)
+![DevExpress](https://img.shields.io/badge/DevExpress-FF7200?style=for-the-badge)
+
+**Mobile**
+
+![React Native](https://img.shields.io/badge/React%20Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![.NET MAUI](https://img.shields.io/badge/.NET%20MAUI-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![Xamarin](https://img.shields.io/badge/Xamarin-3498DB?style=for-the-badge&logo=xamarin&logoColor=white)
+![Uno Platform](https://img.shields.io/badge/Uno%20Platform-0046D5?style=for-the-badge&logo=uno&logoColor=white)
+
+**Data & search**
+
+![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![LiteDB](https://img.shields.io/badge/LiteDB-006C8E?style=for-the-badge)
+![Microsoft Fabric](https://img.shields.io/badge/Microsoft%20Fabric-117865?style=for-the-badge&logo=microsoft&logoColor=white)
+
+**Cloud, AI & messaging**
+
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![Azure OpenAI](https://img.shields.io/badge/Azure%20OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Semantic Kernel](https://img.shields.io/badge/Semantic%20Kernel-512BD4?style=for-the-badge&logo=microsoft&logoColor=white)
+![Key Vault](https://img.shields.io/badge/Azure%20Key%20Vault-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
+![Quartz](https://img.shields.io/badge/Quartz.NET-D32F2F?style=for-the-badge)
+![Keycloak](https://img.shields.io/badge/Keycloak-008AAA?style=for-the-badge&logo=keycloak&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+
+**DevOps & tooling**
+
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Azure DevOps](https://img.shields.io/badge/Azure%20DevOps-0078D7?style=for-the-badge&logo=azuredevops&logoColor=white)
+![Bitbucket](https://img.shields.io/badge/Bitbucket-0052CC?style=for-the-badge&logo=bitbucket&logoColor=white)
+![IIS](https://img.shields.io/badge/IIS-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
+
+**Architecture & patterns**
+
+![Microservices](https://img.shields.io/badge/Microservices-1f3b5b?style=for-the-badge)
+![Event-Driven](https://img.shields.io/badge/Event--Driven-1f3b5b?style=for-the-badge)
+![DDD](https://img.shields.io/badge/Domain--Driven%20Design-1f3b5b?style=for-the-badge)
+![CQRS](https://img.shields.io/badge/CQRS-1f3b5b?style=for-the-badge)
+![SAGA](https://img.shields.io/badge/SAGA-1f3b5b?style=for-the-badge)
+![Event Sourcing](https://img.shields.io/badge/Event%20Sourcing-1f3b5b?style=for-the-badge)
+![Mediator](https://img.shields.io/badge/Mediator-1f3b5b?style=for-the-badge)
+![Clean Architecture](https://img.shields.io/badge/Clean%20Architecture-1f3b5b?style=for-the-badge)
+![SOLID](https://img.shields.io/badge/SOLID-2e5f8a?style=for-the-badge)
+![DRY](https://img.shields.io/badge/DRY-2e5f8a?style=for-the-badge)
+![ACID](https://img.shields.io/badge/ACID-2e5f8a?style=for-the-badge)
 
 ---
 
