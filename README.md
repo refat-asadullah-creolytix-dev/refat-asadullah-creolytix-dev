@@ -113,12 +113,5 @@ Architecture: microservices · event-driven · domain-driven design · clean / l
 ---
 
 <p align="center">
-  <img height="160" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=refat-asadullah-creolytix-dev&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&title_color=1f3b5b&icon_color=2e5f8a" />
-  <img height="160" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=asadullah-refat-89&layout=compact&hide_border=true&title_color=1f3b5b&langs_count=8" />
-</p>
-
----
-
-<p align="center">
   <i>Strong systems outlive strong individuals. Craft matters, people matter, everything else is noise.</i>
 </p>
