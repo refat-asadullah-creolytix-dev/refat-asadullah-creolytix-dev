@@ -71,6 +71,7 @@ Today I am VP of Engineering at **[Creolytix](https://creolytix.io/) (an F24 com
 ![Maritime](https://img.shields.io/badge/Maritime-1f3b5b?style=for-the-badge)
 ![Manufacturing](https://img.shields.io/badge/Manufacturing-1f3b5b?style=for-the-badge)
 ![Telecom](https://img.shields.io/badge/Telecom-1f3b5b?style=for-the-badge)
+![Art-tech & Marketplaces](https://img.shields.io/badge/Art--tech%20%26%20Marketplaces-1f3b5b?style=for-the-badge)
 
 A decade-plus shipping products across very different industries. A sample of what I built and the impact:
 
@@ -83,6 +84,7 @@ A decade-plus shipping products across very different industries. A sample of wh
 | **Retail, F&B & hospitality** | Prokriyon ERP (100+ businesses, 50+ sectors); [HOSTT](https://3ssoftltd.com/) POS serving 2,500+ restaurants |
 | **Logistics & maritime** | GO! Fetch logistics-automation platform; [OSM Thome](https://selisegroup.com/selises-expertise-with-microsoft-fabric/) maritime data hub |
 | **Manufacturing & telecom** | Vario Systems (global EMS) manufacturing intelligence; [Sunrise](https://selisegroup.com/onehub-by-selise-enabling-scalable-quote-to-order-processes-for-sunrise/) (Swiss telco) |
+| **Art-tech & marketplaces** | [Behold World Art Exchange](https://www.beholdworld.art/): mobile-first art discovery + marketplace platform (Behold Ventures) |
 
 ---
 
