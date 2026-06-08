@@ -126,6 +126,7 @@ A decade-plus shipping products across very different industries. A sample of wh
 |---|---|---|
 | **[SELISE Blocks](https://seliseblocks.com/)** | Core microservices / low-code platform framework I contributed to at SELISE | |
 | **[SELISE Signature](https://selisesignature.com/)** | eIDAS / ZertES-qualified e-signature platform (SWISSCOM, SigningHub) | |
+| **[Behold World Art Exchange](https://www.beholdworld.art/)** | Mobile-first art discovery + marketplace platform; led product, UX & architecture (Behold Ventures) | |
 | **[dotnet-essential-services](https://github.com/asadullah-refat-89/dotnet-essential-services)** | A .NET minimal-API reference for clean, domain-driven architecture (identity, auth, storage, email) | ⭐ 38 |
 | **[astro-odyssey-uno-platform](https://github.com/asadullah-refat-89/Astro-Odyssey-Uno-Platform)** | Cross-platform space shooter in C# + WebAssembly · ▶ [Play in browser](https://asadullah-refat-89.github.io/astro-odyssey-uno-platform/) | ⭐ 25 |
 | **[phototis-uno-platform](https://github.com/asadullah-refat-89/Phototis-Uno-Platform)** | A WebAssembly photo-editing studio · ▶ [Play in browser](https://asadullah-refat-89.github.io/phototis-uno-platform/) | |
