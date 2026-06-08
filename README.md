@@ -31,6 +31,9 @@ Engineering leader with 11+ years building software and the teams that ship it. 
 
 Today I am VP of Engineering at **[Creolytix](https://creolytix.io/) (an F24 company)**, building enterprise risk intelligence and operational-resilience SaaS: risk monitoring, threat analysis, and real-time alerting. I lead through credibility rather than ceremony, and I care about systems and people that outlast any single individual.
 
+> *"One of the very few engineers I would honestly call a 10x engineer. His personal output and his multiplier effect on the team both check out."*
+> — **Julian Weber**, CEO, [SELISE Group](https://selisegroup.com/)
+
 > *"I would be very happy to have Refat as the full-time CTO of Behold... I recommend him without hesitation for senior technology, product, engineering, or CTO-level leadership roles."*
 > — **W. James Forward**, Founder & President, [Behold Ventures](https://www.beholdworld.art/)
 
